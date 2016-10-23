@@ -21,12 +21,12 @@ of data, and to provide a foundation for statistical modeling/thinking.
  - Data Sanitation
  - Data Visualization
 
-## Unit 0 - Pyret Introduction
+## Unit 0 - Pyret Introduction/Refresher
 
 Students who have never programmed in Pyret before
 will receive an introduction to fundamental principles
 necessary in this course (expressions, function definition
-and application, data types).
+and application, variables, data types).
 
 ## Unit 1 - Tools for Data
 
