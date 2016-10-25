@@ -2,7 +2,7 @@
 
 ### Agenda:
  - [Introduction](#intro)
- - [Data From Surveys](#survey)
+ - [What are Tables?](#tables)
  - [Importing Data](#importing)
  - [Loading Tables](#loading)
  - [Closing](#closing)
@@ -33,12 +33,25 @@ and load these Sheets into Pyret as Tables.
 ### Preparation:
  - Computer for each student (or pair)
  - Each student has Google account
- - Create student survey, make viewable by link
  - Demo CSV is loaded onto each computer
 
 ## <a id="intro"></a> Introduction
+Welcome to Bootstrap Data 1!  In this course, you will learn about
+Tables:  a widely used way of arranging data.  Almost every website
+you have ever seen uses tables in the form of databases. 
 
-## <a id="survey"></a> Data From Surveys
+## <a id="tables"></a> What are Tables?
+Let's start with a simple example:
+
+| First Name | Last Name | Age | Grade | Favorite Class | Favorite Food |
+|------------|-----------|-----|-------|----------------|---------------|
+| John       | Doe       | 8   | 4     | Math           | Pizza         |
+| Jane       | Smith     | 9   | 4     | Art            | Tacos         |
+| Javon      | Jackson   | 8   | 4     | Recess         | Pizza         |
+| Angela     | Enriquez  | 8   | 4     | Science        | Cake          |
+| Anthony    | Thompson  | 9   | 4     | Recess         | Pasta         |
+| Dominique  | Rodriguez | 8   | 4     | History        | Hamburgers    |
+
 
 ## <a id="importing"></a> Importing Data
 
