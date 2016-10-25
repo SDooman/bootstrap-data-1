@@ -17,6 +17,7 @@ of data, and to provide a foundation for statistical modeling/thinking.
 ### Programming
  - Tabluar/Categorical data
  - Selecting/Filtering/Ordering tables
+ - Optimization (Min, Max, Sum)
  - Lists
  - Data Sanitation
  - Data Visualization
