@@ -14,7 +14,7 @@ and load these Sheets into Pyret as Tables.
 
 ### Standards and Evidence Statements: 
 
-### Length: -Number- Minutes
+### Length: 45 Minutes
 
 ### Glossary:
 
@@ -70,6 +70,20 @@ is the name of an **attribute**.  We call this the **header row**.  Every
 other row in the table is called a **record**, and contains values for 
 every **attribute** or **column**.  In our example, each **record** represents
 a person, and each value in the record is a person's Age, Favorite Food, etc.
+
+### Exercise:
+
+| Animal | Number of Legs |
+|--------|----------------|
+| Human  | 2              |
+| Ant    | 6              |
+| Spider | 8              |
+| Bear   | 4              |  
+
+ - How many rows does this table have?
+ - How many columns does this table have?
+ - What are the attributes in the header row?
+ - What is the value of the "Number of Legs" attribute for the Human record?
 
 ## <a id="importing"></a> Importing Data
 
