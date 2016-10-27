@@ -86,7 +86,45 @@ a person, and each value in the record is a person's Age, Favorite Food, etc.
  - What is the value of the "Number of Legs" attribute for the Human record?
 
 ## <a id="importing"></a> Importing Data
+Now that you know what tables are, it's time to use them.  There are many
+different apps for working with tables, but the one we'll be using is
+Google Sheets.  Google Sheets is a Spreadsheet software:  a spreadsheet
+is a collection of sheets, and each sheet can hold tables. 
+
+Each student (or pair of students) will follow these instructions.
+
+Before using Sheets, we need to create the Pyret script
+that will load the table.  Go to 
+[this link](https://code.pyret.org/) to create an empty
+Pyret program.  If you've never signed into Pyret before,
+it will ask you for a Google account.  Upon signing in,
+Pyret will create folders for you in your Google drive.
+All of the Pyret scripts you write will be saved into
+the `code.pyret.org` folder.  Save this blank program as
+`intro`.
+
+Go to [this link](https://drive.google.com/) once you've 
+saved your program.  You should see several folders, one
+of which is called `code.pyret.org`.  Double click on 
+this folder to navigate to it.  When we create our spreadsheet,
+it should be in this folder so that Pyret can access it.
+
+Now, open [this link](https://gsuite.google.com/learning-center/products/sheets/get-started/#section-1-2)
+in a new tab, and follow instructions 2-5 in
+ Section 1.2:  Import and convert old spreadsheets to Sheets.  
+Make sure to use the `presidents.csv` file, and to follow
+these instructions within the `code.pyret.org` folder in your
+drive, which should be open in the other tab.
+
+After finishing these instructions, call the teacher over to
+check your work.
 
 ## <a id="loading"></a> Loading Tables
+Now that you've imported a table, it's time to use it with Pyret.
+
+https://docs.google.com/spreadsheets/d/SPREADSHEET_ID/
+
+The string of characters that comes after the */d/* and 
+before the next */* is the SPREADSHEET_ID.
 
 ## <a id="closing"></a> Closing
