@@ -100,20 +100,20 @@ Pyret program.  If you've never signed into Pyret before,
 it will ask you for a Google account.  Upon signing in,
 Pyret will create folders for you in your Google drive.
 All of the Pyret scripts you write will be saved into
-the `code.pyret.org` folder.  Save this blank program as
-`intro`.
+the **code.pyret.org** folder.  Save this blank program as
+**intro**.
 
 Go to [this link](https://drive.google.com/) once you've 
 saved your program.  You should see several folders, one
-of which is called `code.pyret.org`.  Double click on 
+of which is called **code.pyret.org**.  Double click on 
 this folder to navigate to it.  When we create our spreadsheet,
 it should be in this folder so that Pyret can access it.
 
 Now, open [this link](https://gsuite.google.com/learning-center/products/sheets/get-started/#section-1-2)
 in a new tab, and follow instructions 2-5 in
  Section 1.2:  Import and convert old spreadsheets to Sheets.  
-Make sure to use the `presidents.csv` file, and to follow
-these instructions within the `code.pyret.org` folder in your
+Make sure to use the **presidents.csv** file, and to follow
+these instructions within the **code.pyret.org** folder in your
 drive, which should be open in the other tab.
 
 After finishing these instructions, call the teacher over to
@@ -122,9 +122,37 @@ check your work.
 ## <a id="loading"></a> Loading Tables
 Now that you've imported a table, it's time to use it with Pyret.
 
-https://docs.google.com/spreadsheets/d/SPREADSHEET_ID/
+Go back to your empty program, and add each snippet of code
+below to your definitions window (the editor on the left).:
 
-The string of characters that comes after the */d/* and 
-before the next */* is the SPREADSHEET_ID.
+First, we'll need to import Pyret's library for interacting
+with files in the Google Drive:
+
+`import gdrive-sheets as GDS`
+
+Next, we add the line of code that accesses our new
+Google Spreadsheet:
+
+`presidents-sheet = GDS.my-spreadsheet("presidents.csv")`
+
+Finally, we add the code to load this spreadsheet into 
+the form of a Pyret table:
+
+```
+presidents-table = load-table: presidency, name, party, home-state
+  source: presidents-sheet.sheet-by-name("presidents.csv", true)
+end
+
+presidents-table
+```
+
+Now run your code.  If all goes well, you'll see the first 10
+entries of your new table in the interactions window (the 
+editor on the right).
 
 ## <a id="closing"></a> Closing
+
+Congratulations!  You've just finished loading your first table
+in Pyret, which is a big accomplishment.  Next, you'll learn
+how to ask and answer questions using this data.
+
