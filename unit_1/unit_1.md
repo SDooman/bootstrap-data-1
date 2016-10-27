@@ -32,13 +32,13 @@ and load these Sheets into Pyret as Tables.
 
 ### Materials:
  - Google Drive 
- - Demo CSV File
+ - Presidents CSV File
  - Editing Environment (Pyret Editor)
 
 ### Preparation:
  - Computer for each student (or pair)
  - Each student has Google account
- - Demo CSV is loaded onto each computer
+ - Presidents CSV is loaded onto each computer
 
 ## <a id="intro"></a> Introduction
 Welcome to Bootstrap Data 1!  In this course, you will learn about
@@ -121,9 +121,8 @@ check your work.
 
 ## <a id="loading"></a> Loading Tables
 Now that you've imported a table, it's time to use it with Pyret.
-
-Go back to your empty program, and add each snippet of code
-below to your definitions window (the editor on the left).:
+  Go back to your empty program, and add each snippet of code
+below to your definitions window (the editor on the left).
 
 First, we'll need to import Pyret's library for interacting
 with files in the Google Drive:
