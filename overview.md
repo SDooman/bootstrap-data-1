@@ -22,13 +22,6 @@ of data, and to provide a foundation for statistical modeling/thinking.
  - Data Sanitation
  - Data Visualization
 
-## Unit 0 - Pyret Introduction/Refresher
-
-Students who have never programmed in Pyret before
-will receive an introduction to fundamental principles
-necessary in this course (expressions, function definition
-and application, variables, data types).
-
 ## Unit 1 - Tools for Data
 
 Students are introduced to Google Sheets as a 
@@ -36,20 +29,12 @@ convenient method of gathering and storing data.  They will
 create their first Google Sheets document, then load
  these responses into a Table in Pyret.
 
-### Additional Exercises
- - Generating Data with Surveys
- - Loading your music library table
-
 ## Unit 2 - Asking Questions with Tables
 
 Students are introduced to table manipulation functions:  selecting,
-ordering, and filtering.  After practicing ordering and filtering by hand,
-the students will use the table manipulation functions to answer questions.  
-The students also receive a brief
-introduction/refresher on how to write simple Pyret expressions.
-
-### Additional Exercises
- - Extending Tables
+ordering, filtering, extending.  After practicing ordering and filtering by hand,
+the students will use the table manipulation functions to answer questions, and
+receive a refresher on how to write fundamental Pyret expressions.  
 
 ## Unit 3 - Asking Questions with Lists
 
@@ -57,9 +42,6 @@ Students are introduced to different representations of a 'center' of
 a data sample (Mean, Median).  After practicing mean, median, sum, 
 by hand, they are introduced to lists and functions for manipulating
 lists.
-
-### Additional Exercises
- - Writing your own list functions
 
 ## Unit 4 - More Questions with Lists
 
@@ -87,5 +69,6 @@ fill out.  Then get practice sanitizing a real data set.
 
 ## Supplemental Activities
  - Conduct a Class Survey (issues with privacy, designing questions)
+ - Importing and loading a music library
  - Prepare and use a data set from the internet
 
