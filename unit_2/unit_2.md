@@ -139,7 +139,15 @@ Next we'll learn how to make new tables using specific rows.
  - Which of these strings are longer than 4 characters?  "hi", "hey", "hello" "greetings"
  - Which of these strings come before "Pizza" alphabetically?  "Apple", "Bacon", "Toast", "Salad"
 
-# TODO(Sam):  Flesh out explanation and exercises for Sieving
+In order to answer these questions, you're doing something
+called "filtering".  Filtering means you're asking a true/false question
+about each piece of data in a list, and if the answer is true, you
+keep the data.  Otherwise, you throw it out.  In the first exercise,
+the question is "is this number greater than 0?".  In the second,
+the question is "is this string longer than 4 characters".
+
+## Exercise
+ - What is the question being asked in the third exercise?
 
 ## <a id="extending"></a> Extending
 
