@@ -5,7 +5,7 @@
 ### Product Outcomes:
 
 Students begin using table manipulation
-functions in Pyret.
+expressions in Pyret.
 
 ### Standards and Evidence Statements: 
 
@@ -156,7 +156,7 @@ Pyret allows filtering using the `sieve` expression.
 The following code creates a new table with only the first 5 presidents:
 
 ```
-first-five-presidents = sieve presidents using presidency:
+first-five-presidents = sieve presidents-table using presidency:
   presidency <= 5
 end
 ```
@@ -165,7 +165,21 @@ Here, our predicate is the code `presidency <= 5`.  For a particular row,
 if `presidency <= 5` is true, then we keep the row in the new table.
 Otherwise, we leave it out.
 
+The following code creates a new table with only presidents that were in
+office before 1900:
 
+```
+pres-before-1900 = sieve presidents-table using year-started:
+  year-started <= 1900
+end
+```
+
+For each of the following exercises, write the code to create
+a table using `sieve`:
+
+## Exercise
+ - A table with every president who is a member of the "Democratic" party
+ - A table with every president who is from "Virginia"
 
 ## <a id="extending"></a> Extending
 
