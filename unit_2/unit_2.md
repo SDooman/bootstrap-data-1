@@ -9,13 +9,28 @@ functions in Pyret.
 
 ### Standards and Evidence Statements: 
 
-### Length: -Number- Minutes
+### Length: 90 Minutes
 
 ### Glossary:
 
+ - **Selecting**:  Creating a new table using only some of the
+   columns from a different table.
+ - **Ordering**:  Sorting the rows of a table by values in a column.
+ - **Ascending**:  An order increasing in value.
+ - **Descending**:  An order decreasing in value.
+ - **Sieving**:  Filtering rows out of a table that don't satisfy a predicate
+ - **Predicate**:  An expression, taking a particular value from a row, which
+   evalates to *True* if the row should be kept in the new output table.
+ - **Extending**:  Creating a table with an entirely new column, created 
+   by computing new values from the old values in a row.
+
 ### Materials:
+ - Google Drive
+ - Editing Environment (Pyret Editor)
 
 ### Preparation:
+ - Each student (or pair) has a Google account
+ - Each student (or pair) has completed Unit 1
 
 ## <a id="selecting"></a> Selecting
 
@@ -114,4 +129,18 @@ end
  - Order the presidents-table by home state alphabetically (*ascending*)
  - Order the presidents-table by home state in reverse alphabetical order
 
-## <a id="filtering"></a> Filtering
+## <a id="sieving"></a> Sieving
+
+So far you've learned how to select specific columns, and re-order rows.
+Next we'll learn how to make new tables using specific rows.
+
+## Exercise
+ - Which of these numbers are greater than 0?  [1, 0, 2, -1, 4, -3]
+ - Which of these strings are longer than 4 characters?  "hi", "hey", "hello" "greetings"
+ - Which of these strings come before "Pizza" alphabetically?  "Apple", "Bacon", "Toast", "Salad"
+
+# TODO(Sam):  Flesh out explanation and exercises for Sieving
+
+## <a id="extending"></a> Extending
+
+# TODO(Sam):  Add column for starting year and ending year to Presidents dataset, add exercises 
