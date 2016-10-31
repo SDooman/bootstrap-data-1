@@ -32,11 +32,7 @@ may have hundreds of columns.  But what if we only want
 to look at two of the columns?  There should be a way to
 select the columns we care about, and discard the rest.
 
-It turns out there is a way to do that: `select`!
-
-The following code will make a new table using the 
-old presidents data, by selecting the columns you 
-specify:
+It turns out there is a way to do that: `select`
 
 ```
 name-and-party-table = select name, party from presidents-table end
@@ -46,6 +42,24 @@ case, `name, party`) from the specified table `presidents-table`
 and create a new table called name-and-party-table with just those columns.
 
 ### Exercise
+
+Below is a table called `animals`
+
+| name       | legs | eyes | lifespan |
+|------------|------|------|----------|
+| Human      | 2    | 2    | 71       |
+| Garden Ant | 6    | 2    | 8        |
+| Spider     | 8    | 8    | 2.5      |
+| Bear       | 4    | 2    | 10       |
+
+ - Write the code to select only the Name and Eyes columns from `animals`
+ - Write the code to select only the Name and Legs columns from `animals`
+ - Write the code to select only the Name and Lifespan columns from `animals`
+
+### Exercise
+ - In your Pyret program, add code to your definitions window that creates
+   a new table called `name-and-home` that selects the name and home state
+   columns from `presidents-table`
 
 ## <a id="ordering"></a> Ordering
 
@@ -90,6 +104,7 @@ reverse alphabetical.
 alphabetical-names = order presidents-table:
   name ascending
 end
+
 reverse-alphabetical-names = order presidents-table:
   name descending
 end
@@ -99,4 +114,4 @@ end
  - Order the presidents-table by home state alphabetically (*ascending*)
  - Order the presidents-table by home state in reverse alphabetical order
 
-
+## <a id="filtering"></a> Filtering
