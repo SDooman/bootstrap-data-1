@@ -140,7 +140,7 @@ Next we'll learn how to make new tables using specific rows.
  - Which of these strings come before "Pizza" alphabetically?  "Apple", "Bacon", "Toast", "Salad"
 
 In order to answer these questions, you're doing something
-called "filtering".  Filtering means you're asking a true/false question
+called **filtering**.  **Filtering** means you're asking a true/false question
 about each piece of data in a list, and if the answer is true, you
 keep the data.  Otherwise, you throw it out.  In the first exercise,
 the question is "is this number greater than 0?".  In the second,
@@ -148,6 +148,24 @@ the question is "is this string longer than 4 characters".
 
 ## Exercise
  - What is the question being asked in the third exercise?
+
+In a filter, this question you're asking is called a **predicate**.
+Predicates are always true/false questions.
+
+Pyret allows filtering using the `sieve` expression.  
+The following code creates a new table with only the first 5 presidents:
+
+```
+first-five-presidents = sieve presidents using presidency:
+  presidency <= 5
+end
+```
+
+Here, our predicate is the code `presidency <= 5`.  For a particular row,
+if `presidency <= 5` is true, then we keep the row in the new table.
+Otherwise, we leave it out.
+
+
 
 ## <a id="extending"></a> Extending
 
