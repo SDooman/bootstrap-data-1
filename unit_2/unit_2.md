@@ -1,6 +1,10 @@
 # Unit 2
 
 ### Agenda:
+ - [Selecting](#selecting)
+ - [Ordering](#ordering)
+ - [Sieving](#sieving)
+ - [Extending](#extending)
 
 ### Product Outcomes:
 
@@ -183,4 +187,31 @@ a table using `sieve`:
 
 ## <a id="extending"></a> Extending
 
-# TODO(Sam):  Add column for starting year and ending year to Presidents dataset, add exercises 
+One of the most powerful things you can do with tables is
+compute new values using the data from a table.  This is
+called **extending** a table, which is done with the 
+keyword `extend`.
+
+The following code creates a new table that has the same columns
+as the presidents-table, plus a new column with the number of years
+that a president was in office:
+
+```
+presidents-with-years = extend presidents-table using year-started, year-ended:
+  years-in-office : year-ended - year-started
+end
+```
+
+The line `extend presidents-table using year-started, year-ended`
+tells us which table is being extended, and which columns are 
+being used to define the new column. The name of the new column 
+is `years-in-office`, and it is defined by the expression 
+`year-ended - year-started`.
+
+## Exercise
+ - Extend the table to have a column `num-terms` which gives the
+   number of terms a president was in office.  Remember that a
+   presidential term is 4 years.  (Hint:  Use num-floor())
+ - Using `order`, determine which president was in office for 
+   the most years.
+
