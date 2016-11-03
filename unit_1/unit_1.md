@@ -56,7 +56,7 @@ Let's start with an example:
 | Jane       | Smith     | 9   | 4     | Art            | Tacos         |
 | Javon      | Jackson   | 8   | 4     | Recess         | Pizza         |
 | Angela     | Enriquez  | 8   | 4     | Science        | Cake          |
-| Anthony    | Thompson  | 9   | 4     | Recess         | Pasta         |
+| Jack       | Thompson  | 9   | 4     | Recess         | Pasta         |
 | Dominique  | Rodriguez | 8   | 4     | History        | Hamburgers    |
 
 This is a table with information about students in a 4th grade class.
@@ -110,8 +110,7 @@ this folder to navigate to it.  When we create our spreadsheet,
 it should be in this folder so that Pyret can access it.
 
 Now, open [this link](https://gsuite.google.com/learning-center/products/sheets/get-started/#section-1-2)
-in a new tab, and follow instructions 2-5 in
- Section 1.2:  Import and convert old spreadsheets to Sheets.  
+and follow the instructions to Import and convert old spreadsheets to Sheets.  
 Make sure to use the **presidents.csv** file, and to follow
 these instructions within the **code.pyret.org** folder in your
 drive, which should be open in the other tab.
@@ -141,13 +140,32 @@ the form of a Pyret table:
 presidents-table = load-table: presidency, name, party, home-state
   source: presidents-sheet.sheet-by-name("presidents.csv", true)
 end
-
-presidents-table
 ```
 
-Now run your code.  If all goes well, you'll see the first 10
+Now run your code, and type `presidents-table` into the interactions
+window.  If all goes well, you'll see the first few
 entries of your new table in the interactions window (the 
 editor on the right).
+
+You can use the function `GDS.my-spreadsheet` to load
+any spreadsheet that is in your **code.pyret.org** folder.
+But you can also load a spreadsheet from *anyone's* google
+drive, as long as it's public:
+
+The following code will load a table from a Sheet that we've
+created, and you can use it in your own Pyret programs:
+
+```
+nutrtion-sheet = GDS.load-spreadsheet("1YXOMMSdpKwsiGzFE8SY7LJXEvuAHNBzw1RgJYuxSvZc")
+
+nutrition-table = load-table: food, serving-size, calories, calories-from-fat, total-fat, sat-fat, trans-fat, cholesterol, sodium, carbs, fiber, sugar, protein
+  source: nutrition-sheet.sheet-by-name("nutrition", true)
+end
+```
+
+Now run your code and type `nutrition-table` into the interactions
+window.  You should see the entries in a table containing 
+nutrition information about menu items at a restaurant.
 
 ## <a id="closing"></a> Closing
 
