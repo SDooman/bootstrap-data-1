@@ -1,0 +1,12 @@
+food,serving-size,calories,calories-from-fat,total-fat,sat-fat,trans-fat,cholesterol,sodium,carbs,fiber,sugars,protein
+Hamburger,98,240,70,8,3,0,30,480,32,1,6,12
+Cheeseburger,113,290,100,11,5,0.5,45,680,33,2,7,15
+Grilled Chicken Sandwich,200,350,80,9,2,0,65,820,42,3,8,28
+Chicken Nuggets,65,190,110,12,2,0,25,360,12,1,0,9
+Bacon Egg & Cheese Sandwich,150,460,230,26,13,0,250,1300,38,2,3,19
+Burrito,111,300,150,16,7,0,115,790,26,1,2,12
+Oatmeal & Fruit,251,290,35,4,1.5,0,5,160,58,5,32,5
+Garden Salad,230,140,40,4.5,2,0,10,150,20,6,6,6
+Chicken Salad,335,290,80,8,2.5,0,70,680,28,7,10,27
+French Fries,75,230,100,11,1.5,0,0,130,30,2,0,2
+Yogurt,64,50,5,0.5,0,0,5,35,9,0,6,2
