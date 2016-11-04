@@ -28,18 +28,19 @@ expressions in Pyret.
 ### Preparation:
  - Each student (or pair) has a Google account
  - Each student (or pair) has completed Unit 1
+
 ## <a id="sieving"></a> Sieving
 
 So far you've learned how to select specific columns, and re-order rows.
 Next we'll learn how to make new tables using specific rows.
 
-## Exercise
+## Group Exercise
  - Which of these numbers are greater than 0?  [1, 0, 2, -1, 4, -3]
  - Which of these strings are longer than 4 characters?  "hi", "hey", "hello" "greetings"
  - Which of these strings come before "Pizza" alphabetically?  "Apple", "Bacon", "Toast", "Salad"
 
-In order to answer these questions, you're doing something
-called **filtering**.  **Filtering** means you're asking a true/false question
+In order to answer these questions, you're  *filtering*.  
+*Filtering* means you're asking a true/false question
 about each piece of data in a list, and if the answer is true, you
 keep the data.  Otherwise, you throw it out.  In the first exercise,
 the question is "is this number greater than 0?".  In the second,
@@ -52,24 +53,25 @@ In a filter, this question you're asking is called a **predicate**.
 Predicates are always true/false questions.
 
 Pyret allows filtering using the `sieve` expression.  
-The following code creates a new table with only the first 5 presidents:
+The following code generates a table with only foods
+that have less than 600 calories
 
 ```
-first-five-presidents = sieve presidents-table using presidency:
-  presidency <= 5
+less-600-cals = sieve nutrition-table using calories:
+  calories < 600
 end
 ```
 
-Here, our predicate is the code `presidency <= 5`.  For a particular row,
-if `presidency <= 5` is true, then we keep the row in the new table.
-Otherwise, we leave it out.
+Here, our predicate is the code `calories < 600`.  For a
+particular row, if `calories < 600` is true, then we keep
+the row in the new table.  Otherwise, we leave it out. 
 
-The following code creates a new table with only presidents that were in
-office before 1900:
+The following code creates a new table with only
+presidents in the "Whig" party:
 
 ```
-pres-before-1900 = sieve presidents-table using year-started:
-  year-started <= 1900
+whig-presidents = sieve presidents-table using party:
+  party == "Whig"
 end
 ```
 
@@ -77,8 +79,10 @@ For each of the following exercises, write the code to create
 a table using `sieve`:
 
 ## Exercise
- - A table with every president who is a member of the "Democratic" party
- - A table with every president who is from "Virginia"
+ - A table with every president who is from "Virginia".
+ - A table with every food with less than 15g of fat.
+ - Select only *food, fat* from the table above, and
+   order it by fat in ascending order.
 
 ## <a id="extending"></a> Extending
 
