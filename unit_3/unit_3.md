@@ -46,7 +46,7 @@ keep the data.  Otherwise, you throw it out.  In the first exercise,
 the question is "is this number greater than 0?".  In the second,
 the question is "is this string longer than 4 characters".
 
-## Exercise
+## Group Exercise
  - What is the question being asked in the third exercise?
 
 In a filter, this question you're asking is called a **predicate**.
@@ -91,26 +91,29 @@ compute new values using the data from a table.  This is
 called **extending** a table, which is done with the 
 keyword `extend`.
 
-The following code creates a new table that has the same columns
-as the presidents-table, plus a new column with the number of years
-that a president was in office:
+The following code creates a new table that has the same
+columns as the nutrition-table, plus a new column with the
+amount of calories *not* from fat:
 
 ```
-presidents-with-years = extend presidents-table using year-started, year-ended:
-  years-in-office : year-ended - year-started
+cals-not-from-fat = extend nutrition-table using calories, calories-from-fat:
+  calories-not-from-fat : calories - calories-from-fat
 end
 ```
-
-The line `extend presidents-table using year-started, year-ended`
+The line `extend nutrition-table using calories, calories-from-fat:`
 tells us which table is being extended, and which columns are 
-being used to define the new column. The name of the new column 
-is `years-in-office`, and it is defined by the expression 
-`year-ended - year-started`.
+being used to define the new column.  The name of the new column
+is `calories-not-from-fat`, and it is defined by the expression
+`calories - calories-from-fat`
 
 ## Exercise
- - Extend the table to have a column `num-terms` which gives the
-   number of terms a president was in office.  Remember that a
-   presidential term is 4 years.  (Hint:  Use num-floor())
- - Using `order`, determine which president was in office for 
-   the most years.
+ - Extend the presidents table to have a column called 
+   `years-in-office` which is `end-year - start-year`
+ - Select columns *name, years-in-office* from this table
+   and order by *years-in-office* in descending order.
+ - Extend the nutrition table to have a column called
+   `protein-density`, which is the amount of protein 
+   in serving size (`protein / serving-size`)
+ - Select columns *name, protein-density* from this table
+   and order by *protein-density* in ascending order.
 
