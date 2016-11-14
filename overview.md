@@ -16,8 +16,8 @@ of data, and to provide a foundation for statistical modeling/thinking.
 
 ### Programming
  - Tabluar/Categorical data
- - Selecting/Filtering/Ordering tables
- - Optimization (Min, Max, Sum)
+ - Selecting/Filtering/Ordering/Extending tables
+ - Min, Max, Sum
  - Lists
  - Data Sanitation
  - Data Visualization
@@ -29,40 +29,56 @@ convenient method of gathering and storing data.  They will
 create their first Google Sheets document, then load
  these responses into a Table in Pyret.
 
-## Unit 2 - Asking Questions with Tables
+## Unit 2 - Introduction to Table Manipulation
 
-Students are introduced to table manipulation functions:  selecting,
-ordering, filtering, extending.  After practicing ordering and filtering by hand,
-the students will use the table manipulation functions to answer questions, and
-receive a refresher on how to write fundamental Pyret expressions.  
+Students are introduced to table manipulation functions  selecting and
+ordering.  After practicing ordering by hand,
+the students will use the table manipulation 
+functions to answer questions, and receive a refresher on how
+to write fundamental Pyret expressions.
 
-## Unit 3 - Asking Questions with Lists
+## Unit 3 - More Table Manipulation
+
+Students expand their toolset of table manipulation functions 
+with the sieve and extend keywords.  After motivating these
+concepts as ways to ask questions from Tables, the students
+will write Pyret code to answer such questions.
+
+## Unit 4 - Introduction to Lists
+
+Students are introduced to lists as another kind of 
+collection of data.  After manually calculating
+sum, min, max from lists of numbers, students learn
+to use the Pyret math library to compute these
+values.
+
+## Unit 5 - More List Functions
 
 Students are introduced to different representations of a 'center' of
-a data sample (Mean, Median).  After practicing mean, median, sum, 
-by hand, they are introduced to lists and functions for manipulating
-lists.
+a data sample (Mean, Median).  After practicing mean, median, mode
+by hand, they are introduced to the Pyret statistics library 
+and compute these values with expressions.
 
-## Unit 4 - More Questions with Lists
+## Unit 6 - Statistics with Lists
 
 Building on Unit 3, students are introduced to different representations
 of the 'spread' of a data sample (min, max, standard deviation).  After
 practicing these by hand, they are introduced to their respective 
 list functions.
 
-## Unit 5 - Data Visualization
+## Unit 7 - Data Visualization
 
 Students are introduced to different data visualization techniques:
 scatter plots, histograms.  Through experimenting visualizing different
 data sets, students learn when to use each technique.
 
-## Unit 6 - Regression
+## Unit 8 - Regression
 
 Students begin to ask questions about the relationship between different
 variables in a data set.  Students are introduced to linear regression,
 and how to apply/visualize it.
 
-## Unit 7 - Data Sanitizing
+## Unit 9 - Data Sanitizing
 Students are introduced to the concept of data sanitizing by
 attempting to ask questions about unsanitary data from a survey they
 fill out.  Then get practice sanitizing a real data set.
