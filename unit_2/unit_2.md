@@ -69,7 +69,7 @@ name-and-calories-table = select name, calories from nutrition-table end
 
 ### Group Exercise
 
-Below is a table called `animals`
+Below is a table bound to the id `animals`
 
 | name       | legs | eyes | lifespan |
 |------------|------|------|----------|
@@ -150,7 +150,7 @@ type `alphabetical-names` and `reverse-alphabetical-names` into
 the interactions window.
 
 ### Exercise
- - Order the presidents-table by home state alphabetically (*ascending*)
+ - Order the presidents-table by home state alphabetically (**ascending**)
  - Order the presidents-table by home state in reverse alphabetical order
  - Order the nutrition-table by the protein values, in ascending order
 
