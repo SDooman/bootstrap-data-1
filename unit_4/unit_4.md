@@ -1,6 +1,9 @@
 # Unit 4
 
 ### Agenda:
+ - [Lists](#lists)
+ - [Calculations From Lists](#math-list-funs)
+ - [Extracting Lists From Tables](#extract)
 
 ### Product Outcomes:
 
@@ -24,6 +27,8 @@ lists (sum, min, max).
    the smallest value of all the elements.
  - **Maximum**:  For a list containing only numbers,
    the largest value of all the elements.
+ - **Extract**:  A keyword that converts a particular
+   column of a table into a list.
  
 ### Materials:
 
@@ -122,4 +127,35 @@ that take lists of numbers.
 ## <a id="extract"></a> Extracting Lists from Tables
 
 One of the most powerful aspects of Pyret is that 
-it lets you **extract** lists from tables!
+it lets you **extract** columns as lists from tables!
+This lets you take *real data* from tables, and
+perform computations like **sum, minimum, and maximum**
+on the data in the list.
+
+Below is a table bound to the id `animals`:
+
+| name       | legs | eyes | lifespan |
+|------------|------|------|----------|
+| Human      | 2    | 2    | 71       |
+| Garden Ant | 6    | 2    | 8        |
+| Spider     | 8    | 8    | 2.5      |
+| Bear       | 4    | 2    | 10       |
+
+This code will extract the `eyes` column into a list,
+then calculate the maximum number of eyes a particular
+kind of animal has.
+
+```
+import math as m
+eyes-list = extract eyes from animals end
+max-eyes = m.max(eyes-list)
+```
+
+### Group Exercise
+ - How would you extract the lifespan column as a list?
+ - Using the list of lifespan values, how would you 
+   calculate the animal with the shortest lifespan?
+
+
+
+### Exercise 
