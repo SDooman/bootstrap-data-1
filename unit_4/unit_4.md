@@ -50,6 +50,7 @@ For this Unit, we will only be looking at lists that
 contain only numbers, but it is important for you to 
 know that lists can have elements with different types.
 
+## <a id="math-list-funs"></a> Calculating Values From Lists
 ### Group Exercise
 
 The **sum** of a list of numbers is the number you
@@ -67,14 +68,58 @@ l2 = [list: -1, 1, 2]
 l3 = [list: 0.2, 0.6, 1.2, 2.9]
 ```
 
- - What is the sum of elements in `l1`?
- - What is the sum of elements in `l2`?
- - What is the sum of elements in `l3`?
+ - What is the sum of elements in `l1`?  What are the min & max?
+ - What is the sum of elements in `l2`? What are the min & max?
+ - What is the sum of elements in `l3`? What are the min & max?
 
-### Functions that consume lists of numbers
-The **sum** is your first example of 
-a function that consumes a list.  In previous
-functions you have used, the arguments have 
-been Numbers, Strings, or Booleans.
+Pyret has functions for calculating each of these values
+in the `math` package.  Here is how to use them:
 
+```
+import math as m
+my-list = [list: -1, 2, 3.5, 4.5]
+a = m.sum(my-list) # a is equal to 9
+b = m.min(my-list) # b is equal to -1
+c = m.max(my-list) # c is equal to 4.5
+```
 
+In previous functions you have used, the 
+arguments have been Numbers, Strings, or 
+Booleans. These are your first examples of 
+functions that consume an argument of
+type List.
+
+### Exercise
+
+Answer the following questions about these lists
+by adding code in your definitions window:
+
+```
+list-1 = [list: 1, 8, 99, 2, 14, 3]
+list-2 = [list: 0.2, -0.4, 0.1, 0.8, -0.12, 1]
+list-3 = [list: 0, 1, 0, 1, "0", 1]
+```
+
+ - Let id `k` be the maximum of `list-1`
+ - Let id `diff` be the difference between 
+   the minimum and maximum of `list-2`.
+ - Try to calculate the minimum of `list-3`.
+   Why does this not work?
+
+After completing this exercise, the value for
+`k` should be 99, and the value for `diff`
+should be `1.4`.  Calculating minimum of `list-3`
+raises a type error because `list-3` has a String
+value as an element, and the `min` function
+expects arguments of lists containing only numbers.
+
+Remember, this unit only focuses on functions
+that take lists of numbers as arguments.  We can
+write functions that take any kind of list
+later, but for now we will only look at functions
+that take lists of numbers.
+
+## <a id="extract"></a> Extracting Lists from Tables
+
+One of the most powerful aspects of Pyret is that 
+it lets you **extract** lists from tables!
