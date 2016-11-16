@@ -156,6 +156,41 @@ max-eyes = m.max(eyes-list)
  - Using the list of lifespan values, how would you 
    calculate the animal with the shortest lifespan?
 
-
+Notice that extracting the **name** column would 
+produce a list of Strings.  Columns will contain elements
+that all have the same type.  Whenever you `extract`
+a column as a list, it is important to know beforehand
+what type the elements in the list will have.  For example,
+we can only extract the **legs, eyes, lifespan** columns
+to use as arguments in the `sum, min, max` functions, but
+cannot do this with the **name** column.
 
 ### Exercise 
+
+For this exercise, write the following code in your 
+definitions window.  Make sure you also have the code
+to load the `presidents` and `nutrition` tables from 
+Units 2 and 3.
+
+ - Extract the **cholesterol** column from the `nutrition`
+   table, and let `max-cholesterol` be the maximum value
+   in the list of cholesterol values.
+ - Extract the **calories** column from the `nutrition`
+   table, and let `calorie-range` be the difference between
+   the minimum and maximum values in the list of calories values.
+
+You might be asking yourself, "why can't we just use the order
+keyword from Unit 2 to figure out min and max?".  That is a 
+great question, and the answer is that as programmers,
+we want the computer to do as much work as possible.  When
+you use the `min` or `max` functions, the computer is calculating
+the value for you, and you can then use that value later in 
+your program without having to rerun it.  When you look at an ordered 
+table to find the minimum or maximum, you have to run your code
+once to view the table, then another time after you write more 
+code using that value.
+
+As programmers, we want to run our code one time and get an answer
+whenever possible.  Using `extract` and functions to compute 
+values is how we do that.
+
