@@ -52,36 +52,34 @@ sum, min, max from lists of numbers, students learn
 to use the Pyret math library to compute these
 values.
 
-## Unit 5 - More List Functions
+## Unit 5 - Statistics and Lists
 
 Students are introduced to different representations of a 'center' of
-a data sample (Mean, Median).  After practicing mean, median, mode
+a data sample (Mean, Median).  After practicing mean, median
 by hand, they are introduced to the Pyret statistics library 
 and compute these values with expressions.
 
-## Unit 6 - Statistics with Lists
-
-Building on Unit 3, students are introduced to different representations
-of the 'spread' of a data sample (min, max, standard deviation).  After
-practicing these by hand, they are introduced to their respective 
-list functions.
-
-## Unit 7 - Data Visualization
+## Unit 6 - Data Visualization
 
 Students are introduced to different data visualization techniques:
 scatter plots, histograms.  Through experimenting visualizing different
 data sets, students learn when to use each technique.
 
-## Unit 8 - Regression
+## Unit 7 - Regression
 
 Students begin to ask questions about the relationship between different
 variables in a data set.  Students are introduced to linear regression,
 and how to apply/visualize it.
 
-## Unit 9 - Data Sanitizing
+## Unit 8 - Data Sanitizing
 Students are introduced to the concept of data sanitizing by
 attempting to ask questions about unsanitary data from a survey they
 fill out.  Then get practice sanitizing a real data set.
+
+## Unit 9 - Final Project
+Students choose a dataset from a list of provided data sets, and
+ask questions about the data.  They will then fill in a template
+slideshow for their dataset and present their work to the class.
 
 ## Supplemental Activities
  - Conduct a Class Survey (issues with privacy, designing questions)
