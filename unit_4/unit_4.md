@@ -31,6 +31,8 @@ lists (sum, min, max).
    column of a table into a list.
  
 ### Materials:
+ - Google Drive
+ - Editing Environment (Pyret Editor)
 
 ### Preparation:
  - Each student (or pair) has a Google account
