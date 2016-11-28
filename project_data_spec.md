@@ -36,7 +36,7 @@ in students' final projects.
    - Lacrosse Data
    - Other sports (more international)
  - US Geographic/Census
-   - Income distribution
+   - [DONE] Income distribution
    - College Admissions
    - City/State/College demographics
    - Gender distribution across industries
