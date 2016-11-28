@@ -1,100 +1,101 @@
-1,Avatar,Fox,"2,788.00",760.50,0.27,"2,027.50",0.73,2009
-2,Titanic,Par.,"2,186.80",658.70,0.30,"1,528.10",0.70,1997
-3,Star Wars: The Force Awakens,BV,"2,068.20",936.70,0.45,"1,131.60",0.55,2015
-4,Jurassic World,Uni.,"1,670.40",652.30,0.39,"1,018.10",0.61,2015
-5,Marvel's The Avengers,BV,"1,518.80",623.40,0.41,895.50,0.59,2012
-6,Furious 7,Uni.,"1,516.00",353.00,0.23,"1,163.00",0.77,2015
-7,Avengers: Age of Ultron,BV,"1,405.40",459.00,0.33,946.40,0.67,2015
-8,Harry Potter and the Deathly Hallows Part 2,WB,"1,341.50",381.00,0.28,960.50,0.72,2011
-9,Frozen,BV,"1,276.50",400.70,0.31,875.70,0.69,2013
-10,Iron Man 3,BV,"1,214.80",409.00,0.34,805.80,0.66,2013
-11,Minions,Uni.,"1,159.40",336.00,0.29,823.40,0.71,2015
-12,Captain America: Civil War,BV,"1,153.30",408.10,0.35,745.20,0.65,2016
-13,Transformers: Dark of the Moon,P/DW,"1,123.80",352.40,0.31,771.40,0.69,2011
-14,The Lord of the Rings: The Return of the King,NL,"1,119.90",377.80,0.34,742.10,0.66,2003
-15,Skyfall,Sony,"1,108.60",304.40,0.28,804.20,0.73,2012
-16,Transformers: Age of Extinction,Par.,"1,104.10",245.40,0.22,858.60,0.78,2014
-17,The Dark Knight Rises,WB,"1,084.90",448.10,0.41,636.80,0.59,2012
-18,Toy Story 3,BV,"1,067.00",415.00,0.39,652.00,0.61,2010
-19,Pirates of the Caribbean: Dead Man's Chest,BV,"1,066.20",423.30,0.40,642.90,0.60,2006
-20,Pirates of the Caribbean: On Stranger Tides,BV,"1,045.70",241.10,0.23,804.60,0.77,2011
-21,Jurassic Park,Uni.,"1,029.20",402.50,0.39,626.70,0.61,1993
-22,Star Wars: Episode I - The Phantom Menace,Fox,"1,027.00",474.50,0.46,552.50,0.54,1999
-23,Finding Dory,BV,"1,026.40",486.20,0.47,540.10,0.53,2016
-24,Alice in Wonderland (2010),BV,"1,025.50",334.20,0.33,691.30,0.67,2010
-25,Zootopia,BV,"1,023.80",341.30,0.33,682.50,0.67,2016
-26,The Hobbit: An Unexpected Journey,WB (NL),"1,021.10",303.00,0.30,718.10,0.70,2012
-27,The Dark Knight,WB,"1,004.60",534.90,0.53,469.70,0.47,2008
-28,Harry Potter and the Sorcerer's Stone,WB,974.80,317.60,0.33,657.20,0.67,2001
-29,Despicable Me 2,Uni.,970.80,368.10,0.38,602.70,0.62,2013
-30,The Lion King,BV,968.50,422.80,0.44,545.70,0.56,1994
-31,The Jungle Book (2016),BV,966.50,364.00,0.38,602.50,0.62,2016
-32,Pirates of the Caribbean: At World's End,BV,963.40,309.40,0.32,654.00,0.68,2007
-33,Harry Potter and the Deathly Hallows Part 1,WB,960.30,296.00,0.31,664.30,0.69,2010
-34,The Hobbit: The Desolation of Smaug,WB (NL),958.40,258.40,0.27,700.00,0.73,2013
-35,The Hobbit: The Battle of the Five Armies,WB (NL),956.00,255.10,0.27,700.90,0.73,2014
-36,Finding Nemo,BV,940.30,380.80,0.41,559.50,0.60,2003
-37,Harry Potter and the Order of the Phoenix,WB,939.90,292.00,0.31,647.90,0.69,2007
-38,Harry Potter and the Half-Blood Prince,WB,934.40,302.00,0.32,632.50,0.68,2009
-39,The Lord of the Rings: The Two Towers,NL,926.00,342.60,0.37,583.50,0.63,2002
-40,Shrek 2,DW,919.80,441.20,0.48,478.60,0.52,2004
-41,Harry Potter and the Goblet of Fire,WB,896.90,290.00,0.32,606.90,0.68,2005
-42,Spider-Man 3,Sony,890.90,336.50,0.38,554.30,0.62,2007
-43,Ice Age: Dawn of the Dinosaurs,Fox,886.70,196.60,0.22,690.10,0.78,2009
-44,Spectre,Sony,880.70,200.10,0.23,680.60,0.77,2015
-45,Harry Potter and the Chamber of Secrets,WB,879.00,262.00,0.30,617.00,0.70,2002
-46,Ice Age: Continental Drift,Fox,877.20,161.30,0.18,715.90,0.82,2012
-47,The Secret Life of Pets,Uni.,873.70,367.60,0.42,506.10,0.58,2016
-48,Batman v Superman: Dawn of Justice,WB,873.30,330.40,0.38,542.90,0.62,2016
-49,The Lord of the Rings: The Fellowship of the Ring,NL,871.50,315.50,0.36,556.00,0.64,2001
-50,The Hunger Games: Catching Fire,LGF,865.00,424.70,0.49,440.30,0.51,2013
-51,Inside Out,BV,857.60,356.50,0.42,501.10,0.58,2015
-52,Star Wars: Episode III - Revenge of the Sith,Fox,848.80,380.30,0.45,468.50,0.55,2005
-53,Transformers: Revenge of the Fallen,P/DW,836.30,402.10,0.48,434.20,0.52,2009
-54,The Twilight Saga: Breaking Dawn Part 2,LG/S,829.70,292.30,0.35,537.40,0.65,2012
-55,Inception,WB,825.50,292.60,0.35,533.00,0.65,2010
-56,Spider-Man,Sony,821.70,403.70,0.49,418.00,0.51,2002
-57,Independence Day,Fox,817.40,306.20,0.38,511.20,0.63,1996
-58,Shrek the Third,P/DW,799.00,322.70,0.40,476.20,0.60,2007
-59,Harry Potter and the Prisoner of Azkaban,WB,796.70,249.50,0.31,547.10,0.69,2004
-60,E.T.: The Extra-Terrestrial,Uni.,792.90,435.10,0.55,357.80,0.45,1982
-61,Fast & Furious 6,Uni.,788.70,238.70,0.30,550.00,0.70,2013
-62,Indiana Jones and the Kingdom of the Crystal Skull,Par.,786.60,317.10,0.40,469.50,0.60,2008
-63,Spider-Man 2,Sony,783.80,373.60,0.48,410.20,0.52,2004
-64,Deadpool,Fox,782.60,363.10,0.46,419.50,0.54,2016
-65,Star Wars,Fox,775.40,461.00,0.60,314.40,0.41,1977
-66,Guardians of the Galaxy,BV,773.30,333.20,0.43,440.20,0.57,2014
-67,2012,Sony,769.70,166.10,0.22,603.60,0.78,2009
-68,Maleficent,BV,758.50,241.40,0.32,517.10,0.68,2014
-69,The Da Vinci Code,Sony,758.20,217.50,0.29,540.70,0.71,2006
-70,The Amazing Spider-Man,Sony,757.90,262.00,0.35,495.90,0.65,2012
-71,The Hunger Games: Mockingjay - Part 1,LGF,755.40,337.10,0.45,418.20,0.55,2014
-72,Shrek Forever After,P/DW,752.60,238.70,0.32,513.90,0.68,2010
-73,X-Men: Days of Future Past,Fox,747.90,233.90,0.31,513.90,0.69,2014
-74,Madagascar 3: Europe's Most Wanted,P/DW,746.90,216.40,0.29,530.50,0.71,2012
-75,Suicide Squad,WB,745.60,325.10,0.44,420.50,0.56,2016
-76,"The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",BV,745.00,291.70,0.39,453.30,0.61,2005
-77,Monsters University,BV,744.20,268.50,0.36,475.70,0.64,2013
-78,The Matrix Reloaded,WB,742.10,281.60,0.38,460.60,0.62,2003
-79,Up,BV,735.10,293.00,0.40,442.10,0.60,2009
-80,Gravity,WB,723.20,274.10,0.38,449.10,0.62,2013
-81,Captain America: The Winter Soldier,BV,714.30,259.80,0.36,454.50,0.64,2014
-82,The Twilight Saga: Breaking Dawn Part 1,Sum.,712.20,281.30,0.40,430.90,0.61,2011
-83,Dawn of the Planet of the Apes,Fox,710.60,208.50,0.29,502.10,0.71,2014
-84,The Twilight Saga: New Moon,Sum.,709.70,296.60,0.42,413.10,0.58,2009
-85,Transformers,P/DW,709.70,319.20,0.45,390.50,0.55,2007
-86,The Amazing Spider-Man 2,Sony,709.00,202.90,0.29,506.10,0.71,2014
-87,The Twilight Saga: Eclipse,Sum.,698.50,300.50,0.43,398.00,0.57,2010
-88,Mission: Impossible - Ghost Protocol,Par.,694.70,209.40,0.30,485.30,0.70,2011
-89,The Hunger Games,LGF,694.40,408.00,0.59,286.40,0.41,2012
-90,Mission: Impossible - Rogue Nation,Par.,682.30,195.00,0.29,487.30,0.71,2015
-91,Forrest Gump,Par.,677.90,330.30,0.49,347.70,0.51,1994
-92,Interstellar,Par.,675.10,188.00,0.28,487.10,0.72,2014
-93,The Sixth Sense,BV,672.80,293.50,0.44,379.30,0.56,1999
-94,Man of Steel,WB,668.00,291.00,0.44,377.00,0.56,2013
-95,Kung Fu Panda 2,P/DW,665.70,165.20,0.25,500.40,0.75,2011
-96,Ice Age: The Meltdown,Fox,660.90,195.30,0.30,465.60,0.70,2006
-97,Big Hero 6,BV,657.80,222.50,0.34,435.30,0.66,2014
-98,Pirates of the Caribbean: The Curse of the Black Pearl,BV,654.30,305.40,0.47,348.90,0.53,2003
-99,The Hunger Games: Mockingjay - Part 2,LGF,653.40,281.70,0.43,371.70,0.57,2015
-100,Star Wars: Episode II - Attack of the Clones,Fox,649.40,310.70,0.48,338.70,0.52,2002
+Rank,Movie,Studio,Total Gross,Domestic,Overseas,Year
+1,Avatar,Fox,"2,788.00",760.5,"2,027.50",2009
+2,Titanic,Par.,"2,186.80",658.7,"1,528.10",1997
+3,Star Wars: The Force Awakens,BV,"2,068.20",936.7,"1,131.60",2015
+4,Jurassic World,Uni.,"1,670.40",652.3,"1,018.10",2015
+5,Marvel's The Avengers,BV,"1,518.80",623.4,895.5,2012
+6,Furious 7,Uni.,"1,516.00",353,"1,163.00",2015
+7,Avengers: Age of Ultron,BV,"1,405.40",459,946.4,2015
+8,Harry Potter and the Deathly Hallows Part 2,WB,"1,341.50",381,960.5,2011
+9,Frozen,BV,"1,276.50",400.7,875.7,2013
+10,Iron Man 3,BV,"1,214.80",409,805.8,2013
+11,Minions,Uni.,"1,159.40",336,823.4,2015
+12,Captain America: Civil War,BV,"1,153.30",408.1,745.2,2016
+13,Transformers: Dark of the Moon,P/DW,"1,123.80",352.4,771.4,2011
+14,The Lord of the Rings: The Return of the King,NL,"1,119.90",377.8,742.1,2003
+15,Skyfall,Sony,"1,108.60",304.4,804.2,2012
+16,Transformers: Age of Extinction,Par.,"1,104.10",245.4,858.6,2014
+17,The Dark Knight Rises,WB,"1,084.90",448.1,636.8,2012
+18,Toy Story 3,BV,"1,067.00",415,652,2010
+19,Pirates of the Caribbean: Dead Man's Chest,BV,"1,066.20",423.3,642.9,2006
+20,Pirates of the Caribbean: On Stranger Tides,BV,"1,045.70",241.1,804.6,2011
+21,Jurassic Park,Uni.,"1,029.20",402.5,626.7,1993
+22,Star Wars: Episode I - The Phantom Menace,Fox,"1,027.00",474.5,552.5,1999
+23,Finding Dory,BV,"1,026.40",486.2,540.1,2016
+24,Alice in Wonderland (2010),BV,"1,025.50",334.2,691.3,2010
+25,Zootopia,BV,"1,023.80",341.3,682.5,2016
+26,The Hobbit: An Unexpected Journey,WB (NL),"1,021.10",303,718.1,2012
+27,The Dark Knight,WB,"1,004.60",534.9,469.7,2008
+28,Harry Potter and the Sorcerer's Stone,WB,974.8,317.6,657.2,2001
+29,Despicable Me 2,Uni.,970.8,368.1,602.7,2013
+30,The Lion King,BV,968.5,422.8,545.7,1994
+31,The Jungle Book (2016),BV,966.5,364,602.5,2016
+32,Pirates of the Caribbean: At World's End,BV,963.4,309.4,654,2007
+33,Harry Potter and the Deathly Hallows Part 1,WB,960.3,296,664.3,2010
+34,The Hobbit: The Desolation of Smaug,WB (NL),958.4,258.4,700,2013
+35,The Hobbit: The Battle of the Five Armies,WB (NL),956,255.1,700.9,2014
+36,Finding Nemo,BV,940.3,380.8,559.5,2003
+37,Harry Potter and the Order of the Phoenix,WB,939.9,292,647.9,2007
+38,Harry Potter and the Half-Blood Prince,WB,934.4,302,632.5,2009
+39,The Lord of the Rings: The Two Towers,NL,926,342.6,583.5,2002
+40,Shrek 2,DW,919.8,441.2,478.6,2004
+41,Harry Potter and the Goblet of Fire,WB,896.9,290,606.9,2005
+42,Spider-Man 3,Sony,890.9,336.5,554.3,2007
+43,Ice Age: Dawn of the Dinosaurs,Fox,886.7,196.6,690.1,2009
+44,Spectre,Sony,880.7,200.1,680.6,2015
+45,Harry Potter and the Chamber of Secrets,WB,879,262,617,2002
+46,Ice Age: Continental Drift,Fox,877.2,161.3,715.9,2012
+47,The Secret Life of Pets,Uni.,873.7,367.6,506.1,2016
+48,Batman v Superman: Dawn of Justice,WB,873.3,330.4,542.9,2016
+49,The Lord of the Rings: The Fellowship of the Ring,NL,871.5,315.5,556,2001
+50,The Hunger Games: Catching Fire,LGF,865,424.7,440.3,2013
+51,Inside Out,BV,857.6,356.5,501.1,2015
+52,Star Wars: Episode III - Revenge of the Sith,Fox,848.8,380.3,468.5,2005
+53,Transformers: Revenge of the Fallen,P/DW,836.3,402.1,434.2,2009
+54,The Twilight Saga: Breaking Dawn Part 2,LG/S,829.7,292.3,537.4,2012
+55,Inception,WB,825.5,292.6,533,2010
+56,Spider-Man,Sony,821.7,403.7,418,2002
+57,Independence Day,Fox,817.4,306.2,511.2,1996
+58,Shrek the Third,P/DW,799,322.7,476.2,2007
+59,Harry Potter and the Prisoner of Azkaban,WB,796.7,249.5,547.1,2004
+60,E.T.: The Extra-Terrestrial,Uni.,792.9,435.1,357.8,1982
+61,Fast & Furious 6,Uni.,788.7,238.7,550,2013
+62,Indiana Jones and the Kingdom of the Crystal Skull,Par.,786.6,317.1,469.5,2008
+63,Spider-Man 2,Sony,783.8,373.6,410.2,2004
+64,Deadpool,Fox,782.6,363.1,419.5,2016
+65,Star Wars,Fox,775.4,461,314.4,1977
+66,Guardians of the Galaxy,BV,773.3,333.2,440.2,2014
+67,2012,Sony,769.7,166.1,603.6,2009
+68,Maleficent,BV,758.5,241.4,517.1,2014
+69,The Da Vinci Code,Sony,758.2,217.5,540.7,2006
+70,The Amazing Spider-Man,Sony,757.9,262,495.9,2012
+71,The Hunger Games: Mockingjay - Part 1,LGF,755.4,337.1,418.2,2014
+72,Shrek Forever After,P/DW,752.6,238.7,513.9,2010
+73,X-Men: Days of Future Past,Fox,747.9,233.9,513.9,2014
+74,Madagascar 3: Europe's Most Wanted,P/DW,746.9,216.4,530.5,2012
+75,Suicide Squad,WB,745.6,325.1,420.5,2016
+76,"The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",BV,745,291.7,453.3,2005
+77,Monsters University,BV,744.2,268.5,475.7,2013
+78,The Matrix Reloaded,WB,742.1,281.6,460.6,2003
+79,Up,BV,735.1,293,442.1,2009
+80,Gravity,WB,723.2,274.1,449.1,2013
+81,Captain America: The Winter Soldier,BV,714.3,259.8,454.5,2014
+82,The Twilight Saga: Breaking Dawn Part 1,Sum.,712.2,281.3,430.9,2011
+83,Dawn of the Planet of the Apes,Fox,710.6,208.5,502.1,2014
+84,The Twilight Saga: New Moon,Sum.,709.7,296.6,413.1,2009
+85,Transformers,P/DW,709.7,319.2,390.5,2007
+86,The Amazing Spider-Man 2,Sony,709,202.9,506.1,2014
+87,The Twilight Saga: Eclipse,Sum.,698.5,300.5,398,2010
+88,Mission: Impossible - Ghost Protocol,Par.,694.7,209.4,485.3,2011
+89,The Hunger Games,LGF,694.4,408,286.4,2012
+90,Mission: Impossible - Rogue Nation,Par.,682.3,195,487.3,2015
+91,Forrest Gump,Par.,677.9,330.3,347.7,1994
+92,Interstellar,Par.,675.1,188,487.1,2014
+93,The Sixth Sense,BV,672.8,293.5,379.3,1999
+94,Man of Steel,WB,668,291,377,2013
+95,Kung Fu Panda 2,P/DW,665.7,165.2,500.4,2011
+96,Ice Age: The Meltdown,Fox,660.9,195.3,465.6,2006
+97,Big Hero 6,BV,657.8,222.5,435.3,2014
+98,Pirates of the Caribbean: The Curse of the Black Pearl,BV,654.3,305.4,348.9,2003
+99,The Hunger Games: Mockingjay - Part 2,LGF,653.4,281.7,371.7,2015
+100,Star Wars: Episode II - Attack of the Clones,Fox,649.4,310.7,338.7,2002
