@@ -22,6 +22,8 @@ in students' final projects.
    - Netflix Ratings
    - IMDB Ratings
    - [DONE] Box Office Mojo (Highest Grossing Movies)
+ - Music
+   - Top 40 Data Set
  - Pop Culture
    - Popular Twitter Accounts
    - Other Social Media
@@ -32,9 +34,8 @@ in students' final projects.
    - Baseball Data
    - Volleyball Data
    - Lacrosse Data
-   - Other sports
- - Geographic/Census
-   - Census data
+   - Other sports (more international)
+ - US Geographic/Census
    - Income distribution
    - College Admissions
    - City/State/College demographics
@@ -45,13 +46,10 @@ in students' final projects.
  - Scientific
    - Global C02 Emissions by country/company
    - Wildlife Extinction Rates
-
  - Financial
-
  - Political
    - Nuclear weapon data
    - Congressional salaries data
-
  - Food
    - Some nutritional data set
 
