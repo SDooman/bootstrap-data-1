@@ -13,7 +13,7 @@ in students' final projects.
    implied questions that a student could ask
    and answer using this data set.
  - If the questions involve the use of
-   `extend`, the extended columns should 
+   `extend`, the extended columns should ideally
    represent quantities that are easy for 
    students to conceptualize (physical quantities, etc.)
 
@@ -22,6 +22,7 @@ in students' final projects.
    - Netflix Ratings
    - IMDB Ratings
    - [DONE] Box Office Mojo (Highest Grossing Movies)
+   - Oscars List
  - Music
    - Top 40 Data Set
  - Pop Culture
@@ -33,7 +34,6 @@ in students' final projects.
    - Basketball Data
    - Baseball Data
    - Volleyball Data
-   - Lacrosse Data
    - Other sports (more international)
  - US Geographic/Census
    - [DONE] Income distribution
@@ -42,14 +42,16 @@ in students' final projects.
    - Gender distribution across industries
    - Poverty dataset
    - Crime rates dataset
-   - Obesity data
  - Scientific
    - Global C02 Emissions by country/company
    - Wildlife Extinction Rates
+   - Biomass Dataset
+   - 
  - Financial
+   - Banks data
  - Political
-   - Nuclear weapon data
    - Congressional salaries data
+   - Voter data
  - Food
    - Some nutritional data set
 
