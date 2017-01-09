@@ -10,10 +10,10 @@ of data, and to provide a foundation for statistical modeling/thinking.
 ### Statistics
  - Categorical/Quantitative/Bivariate Data
  - Mean/Median/Mode
+ - Standard Deviation
  - Bar Charts, Pie Charts, Dot Plots
  - Histograms
  - Scatter Plots
- - Standard Deviation
  - Linear Regression
 
 ### Programming
@@ -75,7 +75,7 @@ data using histograms.  Then students
 generate histograms for several data sets
 to learn how to analyze 'shapes' of data,
 including symmetric, skewed, bell-shaped,
-uniform, etc.
+uniform.
 
 ## Unit 8 - Analysis of Bivariate Data
 
@@ -83,12 +83,12 @@ Students begin to ask questions about the relationship between different
 variables in a data set.  Students are introduced to 
 scatter plots as ways to visualize bivariate data,
 and linear regression as a method of analyzing 
-a relationship 
+a relationship.
 
 ## Unit 9 - Data Sanitizing
 Students are introduced to the concept of data sanitizing by
 attempting to ask questions about unsanitary data from a survey they
-fill out.  Then get practice sanitizing a real data set.
+fill out.  Then students practice sanitizing a real data set.
 
 ## Unit 10 - Final Project
 Students choose a dataset from a list of provided data sets, and
