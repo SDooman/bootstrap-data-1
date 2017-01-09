@@ -8,18 +8,19 @@ This course aims to provide students with hands on manipulation
 of data, and to provide a foundation for statistical modeling/thinking.
 
 ### Statistics
+ - Categorical/Quantitative/Bivariate Data
  - Mean/Median/Mode
+ - Bar Charts, Pie Charts, Dot Plots
  - Histograms
  - Scatter Plots
  - Standard Deviation
  - Linear Regression
 
 ### Programming
- - Tabluar/Categorical data
- - Selecting/Filtering/Ordering/Extending tables
+ - Relational (Tabular) Data
+ - Selecting/Filtering/Ordering/Extending Tables
  - Min, Max, Sum
  - Lists
- - Data Sanitation
  - Data Visualization
 
 ## Unit 1 - Tools for Data
@@ -59,24 +60,37 @@ a data sample (Mean, Median).  After practicing mean, median
 by hand, they are introduced to the Pyret statistics library 
 and compute these values with expressions.
 
-## Unit 6 - Data Visualization
+## Unit 6 - Visualizing Categorical Data
 
-Students are introduced to different data visualization techniques:
-scatter plots, histograms.  Through experimenting visualizing different
-data sets, students learn when to use each technique.
+Students learn several techniques for visualizing
+categorical data:  bar charts, pie charts, and
+dot plots.  Students will create visualizations
+for different data sense, and develop a sense 
+for how to use different visualization techniques.
 
-## Unit 7 - Regression
+## Unit 7 - Visualizing Quantitative Data
+
+Students learn to visualized quantitative 
+data using histograms.  Then students
+generate histograms for several data sets
+to learn how to analyze 'shapes' of data,
+including symmetric, skewed, bell-shaped,
+uniform, etc.
+
+## Unit 8 - Analysis of Bivariate Data
 
 Students begin to ask questions about the relationship between different
-variables in a data set.  Students are introduced to linear regression,
-and how to apply/visualize it.
+variables in a data set.  Students are introduced to 
+scatter plots as ways to visualize bivariate data,
+and linear regression as a method of analyzing 
+a relationship 
 
-## Unit 8 - Data Sanitizing
+## Unit 9 - Data Sanitizing
 Students are introduced to the concept of data sanitizing by
 attempting to ask questions about unsanitary data from a survey they
 fill out.  Then get practice sanitizing a real data set.
 
-## Unit 9 - Final Project
+## Unit 10 - Final Project
 Students choose a dataset from a list of provided data sets, and
 ask questions about the data.  They will then fill in a template
 slideshow for their dataset and present their work to the class.
