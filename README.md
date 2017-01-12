@@ -9,8 +9,8 @@ of data, and to provide a foundation for statistical modeling/thinking.
 
 ### Statistics
  - Categorical/Quantitative/Bivariate Data
- - Mean/Median/Mode
- - Standard Deviation
+ - Mean/Median/Mode (Center)
+ - Standard Deviation (Spread)
  - Bar Charts, Pie Charts, Dot Plots
  - Histograms
  - Scatter Plots
