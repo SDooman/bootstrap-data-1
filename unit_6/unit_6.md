@@ -1,18 +1,43 @@
-# Unit 5:  Measuring Center
+# Unit 6:  Measuring Center
 
 ### Agenda:
+ - [Varying Data](#intro)
+ - [Mean](#mean)
+ - [Median](#median)
+ - [Mode](#mode)
+ - [Mean, Median & Mode in Pyret](#pyret)
 
 ### Product Outcomes:
+
+Students are introduced to different
+representations of a data set's 
+"center": mean, median mode.  They 
+will use Pyret's statistics library
+to compute these values for data 
+sets.
 
 ### Standards and Evidence Statements: 
 
 ### Length: -60- Minutes
 
 ### Glossary:
+ - **Mean**: The sum of all elements in
+   a list, divided by the number of 
+   elements in the list.
+ - **Average**: Another word for **mean**.
+ - **Median**: Value separating the larger
+   half of a list of numbers from the lower
+   half.
+ - **Mode**: The most commonly occuring 
+   element in a list of numbers.
 
 ### Materials:
+ - Google Drive
+ - Editing Environment (Pyret Editor)
 
 ### Preparation:
+ - Computer for each student (or pair)
+ - Each student has a Google account
 
 ## <a id="intro"></a> Varying Data
 

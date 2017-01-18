@@ -32,7 +32,7 @@ convenient method of gathering and storing data.
 They will create their first Google Sheets document, 
 then load these responses into a Table in Pyret.
 
-## Unit 2 - Introduction to Tabular Data
+## Unit 2 - Introduction to Data
 
 Students develop a vocabulary for
 classifying data (categorical, quantitative).
@@ -62,7 +62,7 @@ sum, min, max from lists of numbers, students learn
 to use the Pyret math library to compute these
 values.
 
-## Unit 6 - Statistics and Lists
+## Unit 6 - Measuring Center
 
 Students are introduced to different representations 
 of a 'center' of a data sample (Mean, Median).  

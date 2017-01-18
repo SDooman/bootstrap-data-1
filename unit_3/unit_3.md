@@ -1,4 +1,4 @@
-# Unit 3
+# Unit 3: Table Manipulation Part 1
 
 ### Agenda:
  - [Selecting](#selecting)
