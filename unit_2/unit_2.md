@@ -1,18 +1,33 @@
 # Unit 2
 
 ### Agenda:
+ - [Classifying Data](#classifying)
+ - [Categorical Data](#categorical)
+ - [Quantitative Data](#quantitative)
+ - [Rules of Thumb](#difference)
 
 ### Product Outcomes:
 
+Students learn to differentiate 
+categorical and quantitative data.
+
 ### Standards and Evidence Statements: 
 
-### Length: -Number- Minutes
+### Length: 45 Minutes
 
 ### Glossary:
+ - **Categorical Data**: Data that can
+   only have a certain number of values.
+ - **Quantitative Data**: Numerical 
+   data that measures an amount.
 
 ### Materials:
+ - Google Drive
+ - Editing Environment (Pyret Editor)
 
 ### Preparation:
+ - Computer for each student (or pair)
+ - Each student has google account
 
 ## <a id="classifying"></a> Classifying Data
 
@@ -64,7 +79,7 @@ Hair Color is a **categorical** variable,
 which means that the column contains
 **categorical** data.
 
-## <a id="Quantitative Data"></a> Quantitative Data
+## <a id="quantitative"></a> Quantitative Data
 
 Now look at the Height (inches) column.  
 How many possible values are there for
