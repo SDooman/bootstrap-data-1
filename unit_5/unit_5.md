@@ -1,255 +1,225 @@
-# Unit 5:  Measuring Center
+# Unit 4
 
 ### Agenda:
+ - [Lists](#lists)
+ - [Calculations From Lists](#math-list-funs)
+ - [Extracting Lists From Tables](#extract)
 
 ### Product Outcomes:
 
+Students are introduced to lists as
+ordered collections of data.  They 
+learn to extract lists from tables
+and calculate relevant values from 
+lists (sum, min, max).
+
 ### Standards and Evidence Statements: 
 
-### Length: -60- Minutes
+### Length: 45 Minutes
 
 ### Glossary:
-
+ - **Lists**:  An ordered collection of 
+   data, which can be of any type.
+ - **Element**:  An entry in the list.
+ - **Sum**:  For a list containing only 
+   numbers, the total value of all 
+   elements added together.
+ - **Minimum**:  For a list containing 
+   only numbers, the smallest value of 
+   all the elements.
+ - **Maximum**:  For a list containing 
+   only numbers, the largest value of 
+   all the elements.
+ - **Extract**:  A keyword that converts 
+   a particular column of a table into a list.
+ 
 ### Materials:
+ - Google Drive
+ - Editing Environment (Pyret Editor)
 
 ### Preparation:
+ - Each student (or pair) has a Google account
 
-## <a id="intro"></a> Varying Data
+## <a id="lists"></a> Introduction to Lists
 
-So far in this course you have seen
-how to ask for the `min`, `max`, and
-`sum` of a list of numbers.  In the context
-of the menu, this is great for finding
-things like the menu item with the lowest
-amount of carbohydrates, or the highest
-sodium.
+So far you've used Tables as a way to store
+data.  Today, you'll learn a different way
+to store data in Pyret:  lists.
 
-But now, imagine we had two different 
-data sets:  one list containing the heights
-of many different dogs, and another containing
-the heights of many different humans.  We want
-to know the answer to this question:  are dogs
-taller than humans?
-
-*Actually ask the students this question.  Most
-should say that humans are taller.  Provide 
-counter examples (great dane is taller than most
-elementary school students;  Zeus the great 
-dane was 3 ft 8, taller than many kids in elementary
-school!).  If any say dogs are taller, bring 
-up a tall human (i.e. Sultan Kösen, world tallest man).*
-
-It seems we can come up with examples for
-both dogs being taller than humans, and humans are
-taller than dogs.  So it is impossible to say that
-all humans are taller than dogs, or that all dogs are
-taller than humans.  So is the question "are dogs taller
-than humans" impossible to answer?
-
-*Try to get a student to say that "most of the time,
-humans are taller than dog".*
-
-It not be impossible, we just need to ask 
-a better question.  If we have two data
-sets, with dog heights and human heights,
-we need to ask:  is there a height that
-is most representative of dogs?  Another
-way to ask that is, out of all values 
-a dog could have as its height, what is
-roughly the "center" of those values?
-We should ask the same thing for the humans 
-too.  Then, by comparing the "centers" of these
-two data sets, we can represent the general
-difference in height between the two species.
-
-This idea of a representative value, or
-a "center" of a data set is very important
-in statistics, and you will definitely
-see it a lot if you go on to study subjects
-that use data.  If you don't understand yet
-what we mean by center, that's totally fine.
-There are several ways to try and estimate
-the "center" of a data set, and we will
-learn each of these.  You may be familiar
-with one or all of them already.
-
-## <a id="mean"></a> Mean
-
-The first way to measure the center of a data set is 
-called the **mean**.  You may have heard the term
-**average** before;  these are two names for the
-same thing.  The **mean** (sometimes called arithmetic
-mean) is defined as follows:
-
-The sum of all numbers in the list, divided by the 
-size of the list.
-
-For example, here is how to calculate the **mean** of
-the following list:
+Lists are ordered collections of data.  
+Here is an example of a list in Pyret:
 
 ```
-[list: 1, 1.2, 1.8, 2]
-sum = 1 + 1.2 + 1.8 + 2 # Add all of the elements
-mean = sum / 4 # Divide by number of elements
+[list: 1, "Arr", true]
 ```
 
-The mean of this list is `1.5`.
+This list contains 3 values:  a Number 
+with value 1, a String with value "Arr", 
+and a Boolean with value true.
+
+For this Unit, we will only be looking 
+at lists that contain only numbers, but 
+it is important for you to know that lists 
+can have elements with different types.
+
+## <a id="math-list-funs"></a> Calculating Values From Lists
 
 ### Group Exercise
 
-```
-l1 = [list: 1, 3, 5]
-l2 = [list: -1, 1, -0.5, 1, 1]
-l3 = [list: 4, 4, 4, 4, 5, 5, 5, 5, 36]
-```
+The **sum** of a list of numbers is 
+the number you get when you add every 
+element of the list together.
 
- - What is the **mean** of `l1`?
- - What is the **mean** of `l2`?
- - What is the **mean** of `l3`?
+The **minimum** of a list of numbers 
+is the smallest number in that list.
 
-## <a id="median"></a> Median
-
-Lets look at the last example.  Imagine this
-list represents the ages of the people in a 
-kindergarten class:  it includes the 8 students,
-and the teacher.  The arithmetic mean of this list 
-is `9`.  But 9 seem like the "center" of the list?
-
-This is an example of where the **mean** is not
-necessarily the best representative of the center,
-because nobody in the classroom is actually 9 
-years old.
-
-Another value we can calculate is the **median**.
-To find the **median** of a data set, we sort the
-list and take the middle element.
-
-*When going through examples on the board, a
-useful strategy for finding the "middle" element
-of the sorted lists is to cross off numbers on
-both ends of the list until there is only 1 or 2
-elements uncrossed.  Encourage the students to 
-use this cross-out strategy in the exercises*
+The **maximum** of a list of numbers 
+is the largest number in that list.
 
 ```
-[list: 1, 3, 2, 7, 6, 5, 9]
+l1 = [list: 1, 2, 3]
+l2 = [list: -1, 1, 2]
+l3 = [list: 0.2, 0.6, 1.2, 2.9]
 ```
 
-In this example, the sorted list is `[list: 1, 2, 3, 5, 6, 7, 9]`
-There are 7 elements total, so we take the 4th element
-as the **median**:  Therefore the **median** of this list is 5.
+ - What is the sum of elements in `l1`? 
+   What are the min & max?
+ - What is the sum of elements in `l2`? 
+   What are the min & max?
+ - What is the sum of elements in `l3`? 
+   What are the min & max?
 
-For lists that have an even number of elements, there are
-technically 2 middle elements.  In this case, the median is 
-just the **average** of those two numbers.
+Pyret has functions for calculating 
+each of these values in the `math` 
+package.  Here is how to use them:
 
 ```
-[list: 5, 2, 1, 3]
+import math as m
+my-list = [list: -1, 2, 3.5, 4.5]
+a = m.sum(my-list) # a is equal to 9
+b = m.min(my-list) # b is equal to -1
+c = m.max(my-list) # c is equal to 4.5
 ```
 
-In this example, the sorted list is `[list: 1, 2, 3, 5]`.
-There are 4 elements in total, so the **median** is the
-average of the 2nd and 3rd elements, which is 1.5
+In previous functions you have used, the 
+arguments have been Numbers, Strings, or 
+Booleans. These are your first examples of 
+functions that consume an argument of
+type List.
 
 ### Exercise
 
-```
-l4 = [list: -1, 2, -1, 3, 4]
-l5 = [list: 1.2, 0.4, 0.8, 1.3]
-```
-
- - What is the **median** of `l4`?
- - What is the **median** of `l5`?
-
-## <a id="mode"></a> Mode
-
-The last measurement of the "center" of a data set 
-that we will learn is the **mode**.  The **mode** of a data
-set is the element in the set that appears the most
-often.
-
-```
-[list: 1, 1, 2, 2, 2]
-```
-
-In this list, 1 appears twice, and 2 appears 3 times.
-This means that 2 is the **mode** of this data set.
-Sometimes, a data set will have more than one **mode**.
-For example, this list has two modes:
-
-```
-[list: 0, 1, 2, 2, 3, 4, 4, 5]
-```
-
-### Group Exercise
-
-```
-l6 = [list: -1, -1, 0, 1, 3]
-l7 = [list: 1.1, 1.1, 1.2, 1.2, 1.4]
-l8 = [list: 1, 2, 3, 4]
-```
-
- - What is the **mode** of `l6`?
- - What is the **mode** of `l7`?
- - What is the **mode** of `l8`?
-
-## <a id="pyret"></a> Mean, Median & Mode in Pyret
-
-Now that you know what **mean**, **median**, and 
-**mode** are, it's time to use Pyret to calculate
-these values for data sets.
-
-In pairs, create a new Pyret program
-and add the following code to your 
+Answer the following questions about 
+these lists by adding code in your 
 definitions window:
 
 ```
-import statistics as s
-
-l = [list: 1, 1, 2, 3]
-l-mean = s.mean(l)
-l-median = s.median(l)
-l-mode = s.mode(l)
-
-other-list = [list: 0, 0, 1, 1, 2]
-other-list-modes = s.modes(other-list)
+list-1 = [list: 1, 8, 99, 2, 14, 3]
+list-2 = [list: 0.2, -0.4, 0.1, 0.8, -0.12, 1]
+list-3 = [list: 0, 1, 0, 1, "0", 1]
 ```
 
-The statistics package contains all of
-the functions you'll use to calculate
-mean, median, and mode.  Notice that 
-there are two functions for mode:
-Just regular `mode` will give a single
-value, wheras `modes` gives a list
-of values.  This is important because
-sometimes lists will have more than
-one mode.  If you only want to worry
-about one mode, then you can just
-use `mode`.
+ - Let id `k` be the maximum of `list-1`
+ - Let id `diff` be the difference between 
+   the minimum and maximum of `list-2`.
+ - Try to calculate the minimum of `list-3`.
+   Why does this not work?
 
-Now that you know how to use 
-these functions in Pyret, it's time 
-to use them on actual data!  We're going
-to look at data from a classroom:  A 
-teacher has recorded students' grades
-for 3 different tests.  They want to 
-figure out if students' grades are getting
-better overall.
+After completing this exercise, the 
+value for `k` should be 99, and the 
+value for `diff` should be `1.4`.  
+Calculating minimum of `list-3` raises a 
+type error because `list-3` has 
+a String value as an element, and 
+the `min` function expects arguments 
+of lists containing only numbers.
 
-In groups of two, answer the exercise questions
-after creating a new Pyret program with
-the following code added to the definitions
-window:
+Remember, this unit only focuses 
+on functions that take lists of numbers 
+as arguments.  We can write functions 
+that take any kind of list later, but for 
+now we will only look at functions
+that take lists of numbers.
+
+## <a id="extract"></a> Extracting Lists from Tables
+
+One of the most powerful aspects of 
+Pyret is that it lets you **extract** 
+columns as lists from tables! This lets 
+you take *real data* from tables, and
+perform computations like **sum**, **minimum**, 
+and **maximum** on the data in the list.
+
+Below is a table bound to the id `animals`:
+
+| name       | legs | eyes | lifespan |
+|------------|------|------|----------|
+| Human      | 2    | 2    | 71       |
+| Garden Ant | 6    | 2    | 8        |
+| Spider     | 8    | 8    | 2.5      |
+| Bear       | 4    | 2    | 10       |
+
+This code will extract the `eyes` 
+column into a list, then calculate the maximum 
+number of eyes a particular kind of animal has.
 
 ```
-import gdrive-sheets as GDS
-grades-sheet = GDS.load-spreadsheet("1wDtmlt--ewos2fvUy9XF2si5s4lTHVGil3IlPA0GXHU")
+import math as m
+eyes-list = extract eyes from animals end
+max-eyes = m.max(eyes-list)
 ```
 
- - Load the grades table (it has 4 columns:
-   `student`, `test1`, `test2`, and `test3`)
- - What are the mean, median and mode of `test1`?
- - What are the mean, median and mode of `test2`?
- - What are the mean, median and mode of `test3`?
- - Are student grades increasing?  Why or why not?
+### Group Exercise
+ - How would you extract the lifespan 
+   column as a list?
+ - Using the list of lifespan values, 
+   how would you calculate the animal 
+   with the shortest lifespan?
+
+Notice that extracting the **name** column 
+would produce a list of Strings.  Columns 
+will contain elements that all have the 
+same type.  Whenever you `extract` a column 
+as a list, it is important to know beforehand
+what type the elements in the list will have.  
+For example, we can only extract the **legs, 
+eyes, lifespan** columns to use as arguments 
+in the `sum, min, max` functions, but
+cannot do this with the **name** column.
+
+### Exercise 
+
+For this exercise, write the following code 
+in your definitions window.  Make sure you 
+also have the code to load the `presidents` 
+and `nutrition` tables from Units 2 and 3.
+
+ - Extract the **cholesterol** column 
+   from the `nutrition` table, and let 
+   `max-cholesterol` be the maximum value
+   in the list of cholesterol values.
+ - Extract the **calories** column from 
+   the `nutrition` table, and let `calorie-range` 
+   be the difference between the minimum and 
+   maximum values in the list of calories values.
+
+You might be asking yourself, "why can't we 
+just use the order keyword from Unit 2 to 
+figure out min and max?".  That is a great 
+question, and the answer is that as 
+programmers, we want the computer to do 
+as much work as possible.  When you use the 
+`min` or `max` functions, the computer is 
+calculating the value for you, and you can 
+then use that value later in your program 
+without having to rerun it.  When you look 
+at an ordered table to find the minimum 
+or maximum, you have to run your code
+once to view the table, then another time 
+after you write more code using that value.
+
+As programmers, we want to run our code 
+one time and get an answer whenever possible.  
+Using `extract` and functions to compute 
+values is how we do that.
 
