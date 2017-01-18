@@ -34,8 +34,7 @@ then load these responses into a Table in Pyret.
 
 ## Unit 2 - Introduction to Tabular Data
 
-Students are introduced to several different
-data sets, and develop a vocabulary for
+Students develop a vocabulary for
 classifying data (categorical, quantitative).
 
 ## Unit 3 - Table Manipulation Part 1
