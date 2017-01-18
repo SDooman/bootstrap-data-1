@@ -88,7 +88,7 @@ to learn how to analyze 'shapes' of data,
 including symmetric, skewed, bell-shaped,
 uniform.
 
-# Unit 9 - Analysis of Two Categorical Variables
+## Unit 9 - Analysis of Two Categorical Variables
 
 Students examine the relationship between 
 categorical variables using two-way
