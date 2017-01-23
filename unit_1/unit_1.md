@@ -18,53 +18,90 @@ and load these Sheets into Pyret as Tables.
 
 ### Glossary:
 
- - **Spreadsheet**:  A Google Spreadsheets document.  Contains one or more Sheets.
- - **Sheet**:  A Sheet containing tabular data within a Spreadsheet.
- - **Table**:  Data arranged into rows and columns.
- - **Row**:  A single item in the table.
- - **Column**:  A set of values of a certain type in a table.
- - **Header Row**:  The first row in a table, which contains the names of each attribute of a record.
- - **Record**:  A row that is not a header row (an entry in the table).
- - **Attribute**:  The name of a particular column.
- - **Pyret Table**:  An object in Pyret that represents a Table.
- - **Import**:  To put data from an existing file into a Sheet.
- - **Load**:  To create a Table in Pyret from tabular data in a Sheet.
+ - **Spreadsheet**:  A Google Spreadsheets 
+   document.  Contains one or more Sheets.
+ - **Sheet**:  A Sheet containing tabular 
+   data within a Spreadsheet.
+ - **Table**:  Data arranged into rows 
+   and columns.
+ - **Entry**:  One value in a table.
+ - **Row**:  A collection of entries in a
+   table all along the same horizontal line.
+ - **Column**:  A collection of entries in 
+   a table that are all along the same 
+   vertical line, and are of the same type.
+ - **Header Row**:  The first row in a table, 
+   which contains the names of each attribute 
+   of a record.
+ - **Record**:  A row that is not a header 
+   row (any other row in the table).
+ - **Attribute**:  The name of a particular column,
+   which is found in the header row.
+ - **Pyret Table**:  An object in Pyret 
+   that represents a Table.
+ - **Load**:  To create a Table in Pyret from 
+   tabular data in a Sheet.
 
 ### Materials:
  - Google Drive 
- - Presidents CSV File
  - Editing Environment (Pyret Editor)
 
 ### Preparation:
  - Computer for each student (or pair)
  - Each student has Google account
- - Presidents CSV is loaded onto each computer
 
 ## <a id="intro"></a> Introduction
-Welcome to Bootstrap Data 1!  In this course, 
-you will learn about Tables:  a widely 
-used way of arranging data.  Almost 
-every website you have ever seen uses 
-tables in the form of databases. 
-Tables show up in science, business, 
-and even politics.  By learning
-how to use tables, you'll be able 
-to ask and answer questions using
-almost any kind of data you can find!
+Welcome to Bootstrap Data Science Lite.  
+In this course, you'll learn how to ask 
+and answer questions about data.  
+The process of learning from data is 
+called data science.  Data science techniques 
+are used by scientists, business people, 
+politicians, sports analysts, and hundereds of other 
+different fields to ask and answer questions 
+about data.
+
+In order to ask questions from data, you 
+will use a programming language.  Just like
+any language (English, Spanish, French), programming
+languages have their own vocabulary and grammar that
+you will need to learn.  The language you'll
+be learning for data science is Pyret, which 
+lets you ask and answer questions quickly from very 
+large data sets.
+
+### Teacher Notes
+ - Motivate importance of data science by 
+   using examples that may relate to student
+   interests.  Here are some examples:
+ - - Pop Culture:
+ - - - [Emojis](http://motherboard.vice.com/read/a-data-scientists-emoji-guide-to-kanye-west-and-taylor-swift)
+ - - - [Pop Music](https://mic.com/articles/131092/these-students-are-using-data-science-to-predict-which-rap-songs-will-become-hits#.0d3wkhxQE)
+ - - Politics:
+ - - - [Elections](http://www.kdnuggets.com/2016/06/politics-analytics-trump-clinton-sanders-twitter-sentiment.html)
+ - - - [Polls](http://fivethirtyeight.com/)
+ - - Sports:
+ - - - [Predicting Seasons](http://games.espn.com/fba/tools/projections)
+ - - Sciences (there's a lot out there for this one)
+ - - - [Environment](http://www.salon.com/2015/07/18/how_big_data_can_help_save_the_environment_partner/)
+ - Set expectations and rules for the class:
+   This is only an introduction to data science,
+   so some more complicated questions may not 
+   be answered.
 
 ## <a id="tables"></a> What are Tables?
 Let's start with an example:
 
-| First Name | Last Name | Age | Grade | Hair Color     | Height (inch) |
-|------------|-----------|-----|-------|----------------|---------------|
-| John       | Doe       | 8   | 4     | Blonde         | 52.0          |
-| Jane       | Smith     | 9   | 4     | Brown          | 49.1          |
-| Javon      | Jackson   | 8   | 4     | Black          | 57.7          |
-| Angela     | Enriquez  | 8   | 4     | Black          | 52.5          |
-| Jack       | Thompson  | 9   | 4     | Red            | 53.0          |
-| Dominique  | Rodriguez | 8   | 4     | Brown          | 51.1          |
-| Sammy      | Carter    | 8   | 4     | Blonde         | 56.2          |
-| Andrea     | Garcia    | 9   | 4     | Black          | 50.8          |
+| First Name | Last Name | Eye Color      | Height (inch) |
+|------------|-----------|----------------|---------------|
+| John       | Doe       | Green          | 52.0          |
+| Jane       | Smith     | Brown          | 49.1          |
+| Javon      | Jackson   | Brown          | 57.7          |
+| Angela     | Enriquez  | Hazel          | 52.5          |
+| Jack       | Thompson  | Blue           | 53.0          |
+| Dominique  | Rodriguez | Hazel          | 51.1          |
+| Sammy      | Carter    | Blue           | 56.2          |
+| Andrea     | Garcia    | Brown          | 50.8          |
 
 This is a table with information about 
 students in a 4th grade class.  The 
@@ -99,7 +136,8 @@ is a person's Age, Favorite Food, etc.
  - How many rows does this table have?
  - How many columns does this table have?
  - What are the attributes in the header row?
- - What is the value of the "Number of Legs" attribute for the Human record?
+ - What is the value of the "Number of Legs" 
+   attribute for the Human record?
 
 ## <a id="importing"></a> Importing Data
 Now that you know what tables are, 
@@ -152,6 +190,76 @@ You should be able to see the presidents
 data set, which has six columns: 
 Presidency, Name, Party, Home State,
 Year Started and Year Ended.
+
+## <a id="loading"></a> Loading Tables
+
+Now that you know the basic information
+about tables, it's time to get some 
+hands on experience with tables in 
+Pyret.  If you haven't used Pyret before,
+Pyret is a programming language that 
+is used in several Bootstrap curriculums,
+One of the best parts of Pyret is that
+you can create and load tables from
+Google Sheets, which is Google's 
+Spreadsheet software.
+
+### Exercise
+
+First, we need to create the Pyret 
+script that will load the table.  Go to 
+[this link](https://code.pyret.org/) 
+to create an empty Pyret program.
+
+If you've never signed into Pyret before,
+it will ask you for a Google account.  
+Upon signing in, Pyret will create 
+folders for you in your Google drive.
+All of the Pyret scripts you write 
+will be saved into the **code.pyret.org** 
+folder.  Save this blank program 
+as `unit-1`.
+
+If you *have* programmed in Pyret 
+before, you can skip to the next paragraph.
+The Pyret editor has two windows that
+you can write code into:  the definitions 
+window (on the left), and the interactions 
+window (on the right).  The definitions 
+window is where you write longer, multi
+line programs, and then run them with the
+**Run** button.  The interactions window
+is where you can write short programs and 
+quickly run them by hitting enter.
+
+First, we'll need to import Pyret's 
+library for interacting with files 
+in the Google Drive.  Add each of 
+the following lines of code to your
+definitions window (the left window):
+
+`import gdrive-sheets as GDS`
+
+Next, we add the line of code that 
+accesses a specific Google Spreadsheet.
+This code will access the Google Sheet 
+at [this url](https://docs.google.com/spreadsheets/d/14er5Mh443Lb5SIFxXZHdAnLCuQZaA8O6qtgGlibQuEg/edit#gid=0)
+
+`presidents-sheet = GDS.load-spreadsheet("14er5Mh443Lb5SIFxXZHdAnLCuQZaA8O6qtgGlibQuEg")`
+
+Finally, we add the code to load 
+this spreadsheet into 
+the form of a Pyret table:
+
+```
+presidents = load-table: presidency, name, party, home-state, year-started, year-ended
+  source: presidents-sheet.sheet-by-name("presidents", true)
+end
+```
+
+Now, hit run then type `presidents` into
+the interactions window (the right window).
+
 
 ## <a id="loading"></a> Loading Tables
 Now that you've imported a table, 
