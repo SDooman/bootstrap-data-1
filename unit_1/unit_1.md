@@ -3,7 +3,7 @@
 ### Agenda:
  - [Introduction](#intro)
  - [What are Tables?](#tables)
- - [Importing Data](#importing)
+ - [Tables in Google Sheets](#sheets)
  - [Loading Tables](#loading)
  - [Closing](#closing)
 
@@ -68,7 +68,9 @@ languages have their own vocabulary and grammar that
 you will need to learn.  The language you'll
 be learning for data science is Pyret, which 
 lets you ask and answer questions quickly from very 
-large data sets.
+large data sets.  The first feature in Pyret you 
+will learn to use for data science is the data
+table.  But first, you need to know what tables are.
 
 ### Teacher Notes
  - Motivate importance of data science by 
@@ -92,117 +94,103 @@ large data sets.
 ## <a id="tables"></a> What are Tables?
 Let's start with an example:
 
-| First Name | Last Name | Eye Color      | Height (inch) |
-|------------|-----------|----------------|---------------|
-| John       | Doe       | Green          | 52.0          |
-| Jane       | Smith     | Brown          | 49.1          |
-| Javon      | Jackson   | Brown          | 57.7          |
-| Angela     | Enriquez  | Hazel          | 52.5          |
-| Jack       | Thompson  | Blue           | 53.0          |
-| Dominique  | Rodriguez | Hazel          | 51.1          |
-| Sammy      | Carter    | Blue           | 56.2          |
-| Andrea     | Garcia    | Brown          | 50.8          |
+![Basic Table](/img/table_basic.png)
 
-This is a table with information about 
-students in a 4th grade class.  The 
-information in a table is arranged 
-into **rows** and **columns**.  In the 
-example, each column has all the values 
-for a certain **attribute** of a person.  
-For example, the 3rd column contains 
-the age of each person in the class.  
-Here, the **attribute** is Age.
+This is a **table** storing information
+about students in a 4th grade class.
 
-The very top row in this table is a 
-special row:  Every value in the top row
-is the name of an **attribute**.  
-We call this the **header row**.  
+![Entry Highlighted](/img/table_entry.png)
+
+**Tables** are collections of **entries**.
+Each **entry** contains a value, which is
+usually a Number or a String of characters.
+The values stored in table entries are almost
+always related to each other in some way
+(which is why tables are often called 
+relational data).
+
+Table entries are organized into **columns**
+and **rows**.
+
+![Column Highlighted](/img/table_column.png)
+
+All of the **entries** in a particular 
+**column** will contain values that are 
+the same type, and represent the same thing.
+For example, each value in the 3rd column 
+represents the age of a person in the class.
+In this example, age is an **attribute**.
+An **attribute** is just the name of what
+each value in a column is representing.
+
+![Header Highlighted](/img/table_header.png)
+
+The first **row** in a table is a special
+row called the **header row**.  Each **entry**
+in the **header row** is the name of
+the **attribute** for a particular column.
+
+![Row Highlighted](/img/table_row.png)
+
 Every other row in the table is called 
 a **record**, and contains values for 
 every **attribute** or **column**.  
 In our example, each **record** represents
-a person, and each value in the record 
-is a person's Age, Favorite Food, etc.
+a person, and each entry in the record 
+is a person's First Name, Last Name, etc.
 
-### Exercise:
+### Exercise
+Turn to page 1 in your workbook,
+and complete the exercise to identify
+different aspects about the table 
+containing information about different
+species of animal.   
 
-| Animal | Number of Legs |
-|--------|----------------|
-| Human  | 2              |
-| Ant    | 6              |
-| Spider | 8              |
-| Bear   | 4              |  
+### Teacher Notes
+ - *Show the kids slides with each 
+   image of the example table, focusing
+   on the different aspects of tables*
+ - *Instill a sense in kids that records
+   represent distinct objects, and each
+   entry in a record represents an 
+   attribute of that object.
 
- - How many rows does this table have?
- - How many columns does this table have?
- - What are the attributes in the header row?
- - What is the value of the "Number of Legs" 
-   attribute for the Human record?
-
-## <a id="importing"></a> Importing Data
+## <a id="sheets"></a> Tables in Google Sheets
 Now that you know what tables are, 
 it's time to use them.  There are many
 different apps for working with tables, 
 but the one we'll be using is Google Sheets.  
-Google Sheets is a Spreadsheet software:  
+Google Sheets is an app that lets you 
+create and edit **spreadsheets**:  
 a spreadsheet is a collection of sheets, 
-and each sheet can hold tables. 
+and each sheet can hold a table. 
 
-Each student (or pair of students) 
-will follow these instructions.
+### Exercise
 
-Before using Sheets, we need to 
-create the Pyret script that will 
-load the table.  Go to 
-[this link](https://code.pyret.org/) 
-to create an empty Pyret program.  
-If you've never signed into Pyret before,
-it will ask you for a Google account.  
-Upon signing in, Pyret will create 
-folders for you in your Google drive.
-All of the Pyret scripts you write 
-will be saved into the **code.pyret.org** 
-folder.  Save this blank program 
-as `intro`.
+Open your web browsers, and navigate to
+the following link:
 
-Go to [this link](https://drive.google.com/) 
-once you've saved your program.  
-You should see several folders, 
-one of which is called **code.pyret.org**.  
-Double click on this folder to 
-navigate to it.  When we create our 
-spreadsheet, it should be in this 
-folder so that Pyret can access it.
+[https://docs.google.com/spreadsheets/d/14er5Mh443Lb5SIFxXZHdAnLCuQZaA8O6qtgGlibQuEg/edit?usp=sharing](https://docs.google.com/spreadsheets/d/14er5Mh443Lb5SIFxXZHdAnLCuQZaA8O6qtgGlibQuEg/edit?usp=sharing)
 
-Now, open [this link](https://gsuite.google.com/learning-center/products/sheets/get-started/#section-1-2)
-and follow the instructions to Import 
-and convert old spreadsheets to Sheets.  
+This Google Sheet contains a table 
+with information about the presidents
+of the United States.
 
-Make sure to use the **presidents.csv** 
-file, and to follow these instructions 
-within the **code.pyret.org** folder 
-in your drive, which should be 
-open in the other tab.
-
-After finishing these instructions, 
-call the teacher over to check your work.
-You should be able to see the presidents
-data set, which has six columns: 
-Presidency, Name, Party, Home State,
-Year Started and Year Ended.
+Now turn to Page 2 in your workbooks
+and complete the exercise answering
+questions about the presidents table.  
 
 ## <a id="loading"></a> Loading Tables
 
 Now that you know the basic information
 about tables, it's time to get some 
 hands on experience with tables in 
-Pyret.  If you haven't used Pyret before,
-Pyret is a programming language that 
-is used in several Bootstrap curriculums,
-One of the best parts of Pyret is that
-you can create and load tables from
-Google Sheets, which is Google's 
-Spreadsheet software.
+Pyret.  One of the best parts of Pyret 
+is that you can create and load tables 
+from Google Sheets.  Later in the course
+we'll use Pyret to compute different 
+values from the data to answer complex
+questions about the data.
 
 ### Exercise
 
@@ -232,11 +220,14 @@ line programs, and then run them with the
 is where you can write short programs and 
 quickly run them by hitting enter.
 
-First, we'll need to import Pyret's 
-library for interacting with files 
-in the Google Drive.  Add each of 
-the following lines of code to your
-definitions window (the left window):
+Add each of the following lines of code 
+to your definitions window (the left 
+window). Don't worry if you don't understand
+what the code is doing, it will be
+explained in more detail later in
+the unit.  First, we'll need to import 
+Pyret's library for interacting with files 
+in the Google Drive:
 
 `import gdrive-sheets as GDS`
 
@@ -259,72 +250,41 @@ end
 
 Now, hit run then type `presidents` into
 the interactions window (the right window).
+You should see the same presidents table that
+was in the Google Sheets document.
 
+Next, we will load a different table that
+you haven't seen before.  This table will
+contain nutrition information for a 
+restaurant menu.
 
-## <a id="loading"></a> Loading Tables
-Now that you've imported a table, 
-it's time to use it with Pyret.
-Go back to your empty program, and 
-add each snippet of code below to your 
-definitions window (the editor on the left).
+Add the code to load access this Google
+Sheet:
 
-First, we'll need to import Pyret's 
-library for interacting with files 
-in the Google Drive:
+`nutrition-sheet = GDS.load-spreadsheet("1fMNIgAZ-wdNF7sf4j5Vns-g2Qr9UDa8kSgnzxPfDl5I")`
 
-`import gdrive-sheets as GDS`
-
-Next, we add the line of code that 
-accesses our new Google Spreadsheet:
-
-`presidents-sheet = GDS.my-spreadsheet("presidents.csv")`
-
-Finally, we add the code to load 
-this spreadsheet into 
-the form of a Pyret table:
+Next, add the code to load this spreadsheet into
+the form of a Pyret table.  Notice that this 
+table has several more columns than the 
+presidents table.
 
 ```
-presidents-table = load-table: presidency, name, party, home-state
-  source: presidents-sheet.sheet-by-name("presidents.csv", true)
-end
-```
-
-Now run your code, and type 
-`presidents-table` into the interactions
-window.  If all goes well, you'll 
-see the first few entries of your new 
-table in the interactions window (the 
-editor on the right).
-
-You can use the function `GDS.my-spreadsheet` 
-to load any spreadsheet that is in 
-your **code.pyret.org** folder.
-But you can also load a spreadsheet 
-from *anyone's* google drive, 
-as long as it's public:
-
-The following code will load 
-a table from a Sheet that we've
-created, and you can use it 
-in your own Pyret programs:
-
-```
-nutrtion-sheet = GDS.load-spreadsheet("1YXOMMSdpKwsiGzFE8SY7LJXEvuAHNBzw1RgJYuxSvZc")
-
-nutrition-table = load-table: food, serving-size, calories, calories-from-fat, total-fat, sat-fat, trans-fat, cholesterol, sodium, carbs, fiber, sugar, protein
+nutrition = load-table: food, serving-size, calories, calories-from-fat, fat, cholesterol, sodium, sugar, protein
   source: nutrition-sheet.sheet-by-name("nutrition", true)
 end
 ```
-
-Now run your code and type `nutrition-table` 
-into the interactions window.  You 
-should see the entries in a table 
-containing nutrition information 
-about menu items at a restaurant.
+Now, hit run again then type `nutrition`
+into the interactions window.  You should
+see a table with 10 records containing
+information about different foods.
 
 ## <a id="closing"></a> Closing
 
 Congratulations!  You've just finished 
 loading your first table
 in Pyret, which is a big accomplishment.  
+Next, you will learn how to write Pyret
+code that manipulates these tables.  This
+will be the first thing in your "data science
+tool box".
 

@@ -8,7 +8,7 @@ in students' final projects.
  - Each data set should contain at least
    3 columns of data.
  - Each data set should contain columns
-   with both numerical and categorical data.
+   with both quantitative and categorical data.
  - There should be at least 2 suggested or
    implied questions that a student could ask
    and answer using this data set.
