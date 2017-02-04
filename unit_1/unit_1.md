@@ -94,12 +94,12 @@ table.  But first, you need to know what tables are.
 ## <a id="tables"></a> What are Tables?
 Let's start with an example:
 
-![Basic Table](/img/table_basic.png)
+![Basic Table](/unit_1/img/table_basic.png)
 
 This is a **table** storing information
 about students in a 4th grade class.
 
-![Entry Highlighted](/img/table_entry.png)
+![Entry Highlighted](/unit_1/img/table_entry.png)
 
 **Tables** are collections of **entries**.
 Each **entry** contains a value, which is
@@ -112,7 +112,7 @@ relational data).
 Table entries are organized into **columns**
 and **rows**.
 
-![Column Highlighted](/img/table_column.png)
+![Column Highlighted](/unit_1/img/table_column.png)
 
 All of the **entries** in a particular 
 **column** will contain values that are 
@@ -123,14 +123,14 @@ In this example, age is an **attribute**.
 An **attribute** is just the name of what
 each value in a column is representing.
 
-![Header Highlighted](/img/table_header.png)
+![Header Highlighted](/unit_1/img/table_header.png)
 
 The first **row** in a table is a special
 row called the **header row**.  Each **entry**
 in the **header row** is the name of
 the **attribute** for a particular column.
 
-![Row Highlighted](/img/table_row.png)
+![Row Highlighted](/unit_1/img/table_row.png)
 
 Every other row in the table is called 
 a **record**, and contains values for 

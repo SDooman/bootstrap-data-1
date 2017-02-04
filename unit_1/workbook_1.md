@@ -15,8 +15,10 @@
 
 ## Page 2
 
- - How many rows does this table have? ___________
- - How many columns does this table have? ___________
+ - How many rows does the presidents 
+   table have? ___________
+ - How many columns does the presidents 
+   table have? ___________
  - What are the attributes in the header 
    row? _______________________________
  - What is the home state of
