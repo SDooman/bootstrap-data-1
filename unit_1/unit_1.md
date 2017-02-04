@@ -73,9 +73,9 @@ will learn to use for data science is the data
 table.  But first, you need to know what tables are.
 
 ### Teacher Notes
- - Motivate importance of data science by 
+ - *Motivate importance of data science by 
    using examples that may relate to student
-   interests.  Here are some examples:
+   interests.  Here are some examples:*
  - - Pop Culture:
  - - - [Emojis](http://motherboard.vice.com/read/a-data-scientists-emoji-guide-to-kanye-west-and-taylor-swift)
  - - - [Pop Music](https://mic.com/articles/131092/these-students-are-using-data-science-to-predict-which-rap-songs-will-become-hits#.0d3wkhxQE)
@@ -153,7 +153,7 @@ species of animal.
  - *Instill a sense in kids that records
    represent distinct objects, and each
    entry in a record represents an 
-   attribute of that object.
+   attribute of that object.*
 
 ## <a id="sheets"></a> Tables in Google Sheets
 Now that you know what tables are, 
