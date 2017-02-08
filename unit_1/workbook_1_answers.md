@@ -7,24 +7,24 @@
 | Spider | 8              |
 | Bear   | 4              |  
 
- - How many rows does this table have? ____5______
- - How many columns does this table have? ___2_______
+ - How many rows does this table have? **5**
+ - How many columns does this table have? **2**
  - What are the attributes in the header row? 
-   ___Animal, Number Of Legs___
+   **Animal, Number Of Legs**
  - What is the value of the "Number of Legs" 
-   entry for the Human record? ___2_____
+   entry for the Human record? **2**
 
 ## Page 2
 
  - How many rows does the presidents 
-   table have? __46______
+   table have? **46**
  - How many columns does the presidents 
-   table have? __6______
+   table have? **6**
  - What are the attributes in the header 
-   row? __presidency, name, party, home-state,
-   year-started, year-ended___
+   row? **presidency, name, party, home-state,
+   year-started, year-ended**
  - What is the home state of
-   Millard Fillmore? __New York_____
+   Millard Fillmore? **New York**
  - What year did Rutherford B. Hayes
    start his presidency? ___1877_____
 
