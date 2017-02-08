@@ -114,20 +114,10 @@ categories.
 ### Exercise:
 
 Open your [google drive](https://drive.google.com)
-and open the `intro` file which has the
+and open the `unit-1` file which has the
 first two tables you've loaded into Pyret.  Then
 turn to page 3 and answer the questions about 
 these two data sets.
-
- - Look at the Presidents table again.
-   Does the state column have **categorical**
-   or **quantitative** data?  If it is
-   **categorical**, how many categories
-   are there?
- - In the nutrition table, does the 
-   calories column have **categorical**
-   or **quantitative** data?  How can
-   you tell?
 
 ## <a id="difference"></a> Rules of Thumb
 
@@ -153,11 +143,11 @@ because zip codes are not measuring an amount of
 anything.
 
 ### Teacher's Notes
- - * Quantitative data may be continuous (no
+ - *Quantitative data may be continuous (no
    fixed number of possible values) or discrete
    (a fixed number of values).  For example, 
    a column containing scores for a test with
    two questions has 3 possible values: 0, 50, 
    or 100.  However, this is still quantitative
    and not categorical because the values are 
-   measuring an amount (the amount of correctness)
+   measuring an amount (the amount of correctness)*
