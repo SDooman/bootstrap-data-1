@@ -16,10 +16,20 @@ categorical and quantitative data.
 ### Length: 45 Minutes
 
 ### Glossary:
+ - **Quantitative Data**: Numerical data
+   that measures an amount. Quantitative 
+   data can meaningfully be added or 
+   subtracted from other Quantitative
+   data of the same kind, or compared 
+   with less than/greater than other
+   Quantitative data of the same kind.
+   
  - **Categorical Data**: Data that can
    only have a certain number of values.
- - **Quantitative Data**: Numerical 
-   data that measures an amount.
+   Unlike Quantitative Data, Categorical
+   Data cannot be compared meaningfully 
+   with addition, subtraction, less than,
+   or greater than.
 
 ### Materials:
  - Google Drive
@@ -43,76 +53,71 @@ the two different kinds of data that
 can appear in tables: **categorical** and
 **quantitative**.
 
-## <a id="categorical"></a> Categorical Data
+## <a id="quantitative"></a> Quantitative Data
 
 Let's look again at the very first 
 example of a table from Unit 1:
 
-| First Name | Last Name | Hair Color     | Height (inches) |
-|------------|-----------|----------------|-----------------|
-| John       | Doe       | Blonde         | 52.0            |
-| Jane       | Smith     | Brown          | 49.1            |
-| Javon      | Jackson   | Black          | 57.7            |
-| Angela     | Enriquez  | Black          | 52.5            |
-| Jack       | Thompson  | Red            | 53.0            |
-| Dominique  | Rodriguez | Brown          | 51.1            |
-| Sammy      | Carter    | Blonde         | 56.2            |
-| Andrea     | Garcia    | Black          | 50.8            |
+![Basic Table](/unit_2/img/table_basic.png)
 
-The first kind of data we'll look
-at is **categorical** data.  If a 
-column contains **categorical** data,
-each value can only be one of a few
-choices (also called categories).
+The first kind of data we will look at is
+**Quantitative Data**.  **Quantitative Data**
+always measures an amount of something.  If
+a question asks "how much" there is of something,
+the answer will be quantitative data.
 
-Let's think about hair color for a second.
-How many different hair colors are there
-without hair dye?
+Look at the Height (inches) column.  
+If you ask the question "How tall is John Doe?"
+(in other words, how much height does John Doe
+have?), the answer is 52.0 inches.  **Quantitative
+Data** usually has units of measurement;
+in this case the unit of measurement is inches.
+
+Another important fact is that **Quantitative Data**
+can be larger or smaller than other **Quantitative Data**.
+For example, if we ask the question "Is John Doe
+taller than Andrea Garcia?" (in other words, does John
+Doe have more height than Andrea Garcia), it can
+be answered by comparing their entries in the height
+column.  John Doe's height is bigger than Andrea Garcia's,
+so we can say yes, he is taller.
+
+## <a id="categorical"></a> Categorical Data
+
+Now look at the Eye Color column.
+
+![Basic Table](/unit_2/img/table_basic.png)
+
+Can we ask the question "Does John Doe have 
+more eye color than Andrea Garcia?"  No.
+That question makes no sense.  The second
+kind of data we will look at is **Categorical
+Data**.  We used **Quantitative Data** to quantify;
+to ask "how much" there is of something.  **Categorical
+Data** is used to categorize;  it puts something
+into a category.  In this case, students
+are put into the same category if they have
+the same eye color.
+
+Let's think about eye color for a second.
+How many different eye colors are there?
 
 *Guide students towards this list:
-Blonde, Brown, Black, Red, White, Grey.*
+Amber, Blue, Green, Brown, Grey, Hazel.*
 
 So if there are only 6 different natural
-hair colors, then each value in the column
-has to be one of these categories.  Here,
-Hair Color is a **categorical** variable,
-which means that the column contains
-**categorical** data.
-
-## <a id="quantitative"></a> Quantitative Data
-
-Now look at the Height (inches) column.  
-How many possible values are there for
-an entry in this column?  In other words,
-is there a fixed number of categories 
-of height that a student could have?
-
-Height is **quantitative** data:  there 
-is no fixed number of values that an
-entry in the table could have.
-The main difference between 
-**quantitative** and **categorical**
-data is that **quantitative** 
-data can be less than or more than
-other values of **quantitative** data.
-In other words, **quantitative** data
-measures the *amount* of something; it
-quantifies something.
-
-For example, Sammy Carter has height
-56.2 and John Doe has height 52.0, which
-means Sammy Carter is taller than John
-Doe, because she has more height.  Notice
-how for Hair Color (**categorical**) 
-can't be compared this way; the question
-"is blonde more than brown" doesn't make
-any sense.
-
+eye colors, then each value in the column
+has to be one of these categories.  We would
+say that this column has 6 different possible
+categories.
+ 
 ### Exercise:
 
 Open your [google drive](https://drive.google.com)
 and open the `intro` file which has the
-first two tables you've loaded into Pyret.
+first two tables you've loaded into Pyret.  Then
+turn to page 3 and answer the questions about 
+these two data sets.
 
  - Look at the Presidents table again.
    Does the state column have **categorical**
@@ -135,9 +140,24 @@ these two kinds of data.
 
 If you are ever trying to figure out if
 data is **categorical** or **quantitative**,
-ask yourself: "How many choices are there 
-for a value?".  If you can count this number,
-the data is categorical.  Otherwise, ask
-"Is this value measuring the amount of 
-something?"  If it is, it's quantitative.
+ask yourself: is this data measuring an
+amount of something? Does it make sense to
+add/subtract values in this column?  If yes, 
+then it is **quantitative**.  Otherwise, 
+it's **categorical**.
 
+If a column contains numbers, it is usually
+quantitative, but not always!  For example,
+a column containing zip codes is **categorical**,
+because zip codes are not measuring an amount of
+anything.
+
+### Teacher's Notes
+ - * Quantitative data may be continuous (no
+   fixed number of possible values) or discrete
+   (a fixed number of values).  For example, 
+   a column containing scores for a test with
+   two questions has 3 possible values: 0, 50, 
+   or 100.  However, this is still quantitative
+   and not categorical because the values are 
+   measuring an amount (the amount of correctness)
