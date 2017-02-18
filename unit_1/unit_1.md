@@ -278,6 +278,16 @@ into the interactions window.  You should
 see a table with 10 records containing
 information about different foods.
 
+### Teacher Notes
+ - *If you would like to substitute a different
+    data set for this activity, please reference
+    Supplemental Unit 3, or Unit 1 specific
+    instructions on loading and importing a 
+    custom data set*.
+ - *Common sources of trouble for students 
+    loading this data include not getting 
+    the source URL strings exactly correct.*
+
 ## <a id="closing"></a> Closing
 
 Congratulations!  You've just finished 
