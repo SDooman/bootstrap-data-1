@@ -5,6 +5,7 @@
  - [Categorical Data](#categorical)
  - [Quantitative Data](#quantitative)
  - [Rules of Thumb](#difference)
+ - [Closing](#closing)
 
 ### Product Outcomes:
 
@@ -151,3 +152,12 @@ anything.
    or 100.  However, this is still quantitative
    and not categorical because the values are 
    measuring an amount (the amount of correctness)*
+
+## <a id="closing"></a> Closing
+
+Being able to distinguish different kinds of 
+data (categorical vs. quantitative) will be 
+important because these different kinds of 
+data are used to ask and answer questions
+in different ways.
+
