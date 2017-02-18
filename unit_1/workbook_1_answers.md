@@ -1,3 +1,5 @@
+# Workbook 1 Answers
+
 ## Page 1
 
 | Animal | Number of Legs |
@@ -26,5 +28,5 @@
  - What is the home state of
    Millard Fillmore? **New York**
  - What year did Rutherford B. Hayes
-   start his presidency? ___1877_____
+   start his presidency? **1877**
 
