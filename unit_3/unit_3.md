@@ -16,13 +16,16 @@ expressions in Pyret.
 
 ### Glossary:
 
- - **Selecting**:  Creating a new table using only some of the
-   columns from a different table.
- - **Ordering**:  Sorting the rows of a table by values in a column.
+ - **Selecting**:  Creating a new table 
+   using only some of the columns from 
+   a different table.
+ - **Ordering**:  Sorting the rows of a 
+   table by values in a column.
  - **Ascending**:  An order increasing in value.
  - **Descending**:  An order decreasing in value.
-   evalates to *True* if the row should be kept in the new output table.
-   by computing new values from the old values in a row.
+   evalates to *True* if the row should be kept 
+   in the new output table.  by computing new 
+   values from the old values in a row.
 
 ### Materials:
  - Google Drive
@@ -35,14 +38,12 @@ expressions in Pyret.
 ## <a id="selecting"></a> Selecting
 
 You've just loaded your first tables
-into pyret: a table containing information 
-about the Presidents of the United States, 
-and a table containing nutrional information 
-for menu items.  Now it's time to learn how 
+into Pyret; Now it's time to learn how 
 you can do interesting things with these 
-tables.  Make sure you've opened the `intro` 
+tables.  Make sure you've opened the `unit-1` 
 Pyret program you wrote in Unit 1 for this 
-section.  Add each of the code blocks given 
+section.  Save a new version of this file
+as `unit-3`, and add each of the code blocks given 
 in this unit to your definitions window.
 
 The presidents table has 4 columns.  
@@ -58,39 +59,46 @@ and discard the rest.
 It turns out there is a way to do that: `select`
 
 ```
-name-and-party-table = select name, party from presidents-table end
+select name, party from presidents-table end
 ```
 
 The `select` expression will take the column
 names given (in this case, `name, party`) 
 from the specified table `presidents-table` 
-and create a new table called 
-name-and-party-table with just those columns.
+and create a new table with just those columns.
 
-The following code will select only the `name`, 
+The following code will select only the `food`, 
 `calories` columns from the nutrition table:
 
 ```
-name-and-calories-table = select name, calories from nutrition-table end
+select food, calories from nutrition-table end
 ```
 
-### Group Exercise
+Turn to Unit 3 in your workbook and complete
+the exercises on Page 1.
 
-Below is a table bound to the id `animals`
-
-| name       | legs | eyes | lifespan |
-|------------|------|------|----------|
-| Human      | 2    | 2    | 71       |
-| Garden Ant | 6    | 2    | 8        |
-| Spider     | 8    | 8    | 2.5      |
-| Bear       | 4    | 2    | 10       |
-
- - Write the code to select only the Name 
-   and Eyes columns from `animals`
- - Write the code to select only the Name 
-   and Legs columns from `animals`
- - Write the code to select only the Name 
-   and Lifespan columns from `animals`
+### Teacher Notes
+ - *When demonstrating the `select` operation,
+    it may be helpful to do "live coding", by
+    projecting a screen where you write the code
+    and display the output of the interactions
+    window to the class*
+ - *The benefits of using the `select` operation
+    are mostly for the human:  having less columns
+    does not make it significantly faster to perform
+    operations on the table, but less columns does
+    make it easier for humans to observe relations
+    between columns (like in the examples above).
+    
+    `select` will be used in combination with `order`
+    (and other operations later in the course) to produce 
+    tables that are easier for humans 
+    to visually extract relevant information from,
+    so one exercise that could highlight these benefits
+    is having students race (everyone tries to beat a 
+    time of 3 seconds) to find the 3 foods with highest
+    protein amount, or what parties Herbert Hoover,
+    Benjamin Harrison, and Millard Fillmore belong to.*
 
 ### Exercise
  - In your Pyret program, add code to your 
@@ -102,6 +110,14 @@ Below is a table bound to the id `animals`
    creates a new table called `name-and-fats` 
    that selects *name, total-fat, sat-fat, 
    trans-fat* from `nutrition-table`
+
+### Teacher Notes
+ - *Encourage students to experiment writing
+   code in the interactions window, then once
+   they are satisfied that the expressions 
+   satisfy the problem, have students bind
+   those expressions to identifiers in the
+   definitions window.
 
 ## <a id="ordering"></a> Ordering
 
