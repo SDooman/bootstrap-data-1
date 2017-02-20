@@ -35,6 +35,50 @@ expressions in Pyret.
  - Each student (or pair) has a Google account
  - Each student (or pair) has completed Unit 1
 
+## <a id="intro"></a> Introduction
+[//] # (TODO: This intro to data stories needs work)
+
+So far you have seen how tables are used to 
+store information.  But if all data science
+was about was storing data, this class would 
+be boring!  This Unit will be your first 
+exposure to telling a *Data Story*.
+
+A *Data Story* is a story you tell using data!
+By asking and answering questions using data 
+tables, we can learn any number of things about
+that data.  When you, the data scientist, 
+present what you've learned by asking and answering
+questions, you are telling a story about the data.
+For example, in professional sports, scouts will
+collect data on how fast, strong, tall, accurate,
+etc. each player is, and ask questions from that 
+data.  When they decide which players to draft,
+they're telling a story about the data and which
+players were the answers to their questions.
+
+So we're going to be creating and telling 
+*Data Stories*.  How do we do that?
+
+Each *Data Story* starts by asking questions.
+These questions can be answered using specific
+data science/statistics techniques.  Another
+important aspect of these questions is that 
+they usually follow a certain **pattern**.  No
+matter whether a data scientist is working with
+sports data, crime rates, movie information,
+the questions they ask will follow a **pattern**.
+
+In this course, we will teach you some of the
+most important question **patterns** that show up in
+data science, and you will ask and answer these
+kinds of questions with a data set of your choice.
+Once you've answered these questions, you can 
+tell your own data story!  For this Unit, you
+will learn the first two Table operations that 
+help you ask/answer the first **pattern** of 
+questions.
+
 ## <a id="selecting"></a> Selecting
 
 You've just loaded your first tables
@@ -75,7 +119,7 @@ select food, calories from nutrition-table end
 ```
 
 Turn to Unit 3 in your workbook and complete
-the exercises on Page 1.
+the exercises on Page 1.  
 
 ### Teacher Notes
  - *When demonstrating the `select` operation,
@@ -105,11 +149,11 @@ the exercises on Page 1.
    definitions window that creates
    a new table called `name-and-home` that 
    selects the name and home state columns 
-   from `presidents-table`
+   from `presidents`
  - Add code to your definitions window that 
-   creates a new table called `name-and-fats` 
-   that selects *name, total-fat, sat-fat, 
-   trans-fat* from `nutrition-table`
+   creates a new table called `food-and-fat` 
+   that selects the food and fat columns
+   from `nutrition`
 
 ### Teacher Notes
  - *Encourage students to experiment writing
@@ -120,6 +164,8 @@ the exercises on Page 1.
    definitions window.
 
 ## <a id="ordering"></a> Ordering
+
+
 
 ### Group Exercise
  - What does it mean when something 
