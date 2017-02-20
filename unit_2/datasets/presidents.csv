@@ -1,46 +1,46 @@
-presidency,name,party,home-state,year-started,year-ended
-1,George Washington,Independent,Virginia,1789,1797
-2,John Adams,Federalist,Massachusetts,1797,1801
-3,Thomas Jefferson,Democratic-Republican,Virginia,1801,1809
-4,James Madison,Democratic-Republican,Virginia,1809,1817
-5,James Monroe,Democratic-Republican,Virginia,1817,1825
-6,John Quincy Adams,Democratic-Republican/National Republican,Massachusetts,1825,1829
-7,Andrew Jackson,Democratic,Tennessee,1829,1837
-8,Martin Van Buren,Democratic,New York,1837,1841
-9,William Henry Harrison,Whig,Ohio,1841,1841
-10,John Tyler,Whig,Virginia,1841,1845
-11,James K. Polk,Democratic,Tennessee,1845,1849
-12,Zachary Taylor,Whig,Louisiana,1849,1850
-13,Millard Fillmore,Whig,New York,1850,1853
-14,Franklin Pierce,Democratic,New Hampshire,1853,1857
-15,James Buchanan,Democratic,Pennsylvania,1857,1861
-16,Abraham Lincoln,Republican/National Union,Illinois,1861,1865
-17,Andrew Johnson,Democratic/National Union,Tennessee,1865,1869
-18,Ulysses S. Grant,Republican,Ohio,1869,1877
-19,Rutherford B. Hayes,Republican,Ohio,1877,1881
-20,James A. Garfield,Republican,Ohio,1881,1881
-21,Chester A. Arthur,Republican,New York,1881,1885
-22,Grover Cleveland,Democratic,New York,1885,1889
-23,Benjamin Harrison,Republican,Indiana,1889,1893
-24,Grover Cleveland (2nd term),Democratic,New York,1893,1897
-25,William McKinley,Republican,Ohio,1897,1901
-26,Theodore Roosevelt,Republican,New York,1901,1909
-27,William Howard Taft,Republican,Ohio,1909,1913
-28,Woodrow Wilson,Democratic,New Jersey,1913,1921
-29,Warren G. Harding,Republican,Ohio,1921,1923
-30,Calvin Coolidge,Republican,Massachusetts,1923,1929
-31,Herbert Hoover,Republican,Iowa,1929,1933
-32,Franklin D. Roosevelt,Democratic,New York,1933,1945
-33,Harry S. Truman,Democratic,Missouri,1945,1953
-34,Dwight D. Eisenhower,Republican,Texas,1953,1961
-35,John F. Kennedy,Democratic,Massachusetts,1961,1963
-36,Lyndon B. Johnson,Democratic,Texas,1963,1969
-37,Richard Nixon,Republican,California,1969,1974
-38,Gerald Ford,Republican,Michigan,1974,1977
-39,Jimmy Carter,Democratic,Georgia,1977,1981
-40,Ronald Reagan,Republican,California,1981,1989
-41,George H. W. Bush,Republican,Texas,1989,1993
-42,Bill Clinton,Democratic,Arkansas,1993,2001
-43,George W. Bush,Republican,Texas,2001,2009
-44,Barack Obama,Democratic,Illinois,2009,2017
-45,Donald Trump,Republican,New York,2017,2021
+nth,name,home-state,year-started,year-ended,party
+29,Warren G. Harding,Ohio,1921,1923,Republican
+20,James A. Garfield,Ohio,1881,1881,Republican
+12,Zachary Taylor,Louisiana,1849,1850,Whig
+4,James Madison,Virginia,1809,1817,Democratic-Republican
+43,George W. Bush,Texas,2001,2009,Republican
+14,Franklin Pierce,New Hampshire,1853,1857,Democratic
+5,James Monroe,Virginia,1817,1825,Democratic-Republican
+18,Ulysses S. Grant,Ohio,1869,1877,Republican
+31,Herbert Hoover,Iowa,1929,1933,Republican
+2,John Adams,Massachusetts,1797,1801,Federalist
+40,Ronald Reagan,California,1981,1989,Republican
+30,Calvin Coolidge,Massachusetts,1923,1929,Republican
+8,Martin Van Buren,New York,1837,1841,Democratic
+36,Lyndon B. Johnson,Texas,1963,1969,Democratic
+3,Thomas Jefferson,Virginia,1801,1809,Democratic-Republican
+35,John F. Kennedy,Massachusetts,1961,1963,Democratic
+33,Harry S. Truman,Missouri,1945,1953,Democratic
+19,Rutherford B. Hayes,Ohio,1877,1881,Republican
+34,Dwight D. Eisenhower,Texas,1953,1961,Republican
+23,Benjamin Harrison,Indiana,1889,1893,Republican
+13,Millard Fillmore,New York,1850,1853,Whig
+44,Barack Obama,Illinois,2009,2017,Democratic
+45,Donald Trump,New York,2017,2021,Republican
+28,Woodrow Wilson,New Jersey,1913,1921,Democratic
+37,Richard Nixon,California,1969,1974,Republican
+9,William Henry Harrison,Ohio,1841,1841,Whig
+41,George H. W. Bush,Texas,1989,1993,Republican
+27,William Howard Taft,Ohio,1909,1913,Republican
+11,James K. Polk,Tennessee,1845,1849,Democratic
+26,Theodore Roosevelt,New York,1901,1909,Republican
+7,Andrew Jackson,Tennessee,1829,1837,Democratic
+15,James Buchanan,Pennsylvania,1857,1861,Democratic
+6,John Quincy Adams,Massachusetts,1825,1829,Democratic-Republican/National Republican
+10,John Tyler,Virginia,1841,1845,Whig
+21,Chester A. Arthur,New York,1881,1885,Republican
+25,William McKinley,Ohio,1897,1901,Republican
+38,Gerald Ford,Michigan,1974,1977,Republican
+39,Jimmy Carter,Georgia,1977,1981,Democratic
+42,Bill Clinton,Arkansas,1993,2001,Democratic
+17,Andrew Johnson,Tennessee,1865,1869,Democratic/National Union
+32,Franklin D. Roosevelt,New York,1933,1945,Democratic
+1,George Washington,Virginia,1789,1797,Independent
+24,Grover Cleveland (2nd term),New York,1893,1897,Democratic
+22,Grover Cleveland,New York,1885,1889,Democratic
+16,Abraham Lincoln,Illinois,1861,1865,Republican/National Union

@@ -243,7 +243,7 @@ this spreadsheet into
 the form of a Pyret table:
 
 ```
-presidents = load-table: presidency, name, party, home-state, year-started, year-ended
+presidents = load-table: nth, name, home-state, year-started, year-ended, party
   source: presidents-sheet.sheet-by-name("presidents", true)
 end
 ```
