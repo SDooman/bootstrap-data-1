@@ -112,7 +112,7 @@ has to be one of these categories.  We would
 say that this column has 6 different possible
 categories.
  
-### Exercise:
+### Exercise
 
 Open your [google drive](https://drive.google.com)
 and open the `unit-1` file which has the
