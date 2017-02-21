@@ -43,7 +43,6 @@ expressions in Pyret.
  - Each student (or pair) has completed Unit 1
 
 ## <a id="intro"></a> Introduction
-[//]: # (TODO: This intro to data stories needs work)
 
 So far you have seen how tables are used to 
 store information.  But if all data science
@@ -139,9 +138,9 @@ the exercises on Page 1.
     does not make it significantly faster to perform
     operations on the table, but less columns does
     make it easier for humans to observe relations
-    between columns (like in the examples above).
+    between columns (like in the examples above).*
     
-    `select` will be used in combination with `order`
+    *`select` will be used in combination with `order`
     (and other operations later in the course) to produce 
     tables that are easier for humans 
     to visually extract relevant information from,
@@ -168,7 +167,7 @@ the exercises on Page 1.
    they are satisfied that the expressions 
    satisfy the problem, have students bind
    those expressions to identifiers in the
-   definitions window.
+   definitions window.*
 
 ## <a id="ordering"></a> Ordering
 
@@ -201,12 +200,12 @@ tables so that they are easier to search through.
    order.
 
 ### Teacher Notes
- - Have the students tell you what to write
+ - *Have the students tell you what to write
    in each cell of the new table.  Make them
    explain why certain information should 
    stay in the same row as others (i.e. 'Jane' 
    and 'Smith' stay in the same row since 
-   they belong to the same person).
+   they belong to the same person).*
 
 ![Test Grade DESC](/unit_3/img/test_grade_desc.png)
 
@@ -225,9 +224,9 @@ start low, and get larger further in the table.
 Data scientists don't just **order** tables by columns
 with numbers in them:  tables can be **ordered** by
 Strings too.  Here's the classroom table in 
-**descending order** by the first name column.
+**ascending order** by the first name column.
 
-![First Name DESC](/unit_3/img/first_name_desc.png)
+![First Name ASC](/unit_3/img/first_name_asc.png)
 
 ### Group Exercise
  - What do you notice about this table?
@@ -242,10 +241,10 @@ be **ascending** order for Strings.
    **reverse alphabetical order**?
 
 ### Teacher Notes
- - No need to redraw the entire new table, just
+ - *No need to redraw the entire new table, just
    have students describe how it would be different;
    namely, all of the rows from the **alphabetically
-   ordered** table would be in the opposite order
+   ordered** table would be in the opposite order*
 
 A table that is in **reverse alphabetical order**
 is in **descending** order.
@@ -307,8 +306,6 @@ to figure out which rows have the highest/lowest
 value for X.  With this new ordered table, it's 
 easy to see the top 5 presidents, or the top 3 proteiny
 foods.
-
-[//]: # TODO: Rename Order Pattern to something better
 
 This is the first example of a **pattern**, which we
 will call the **Order Pattern**.
