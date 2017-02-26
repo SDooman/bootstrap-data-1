@@ -63,6 +63,8 @@ from the data in tables.
 Let's look at our favorite 4th grade class
 again.
 
+![Basic Table](/unit_4/img/basic_table.png)
+
 Say you're the teacher, and you want to create
 a new table that only has students who scored
 less than an 85 on the test.  Which students
@@ -77,6 +79,8 @@ would be in this table?
    to have the students take notice of this;
    these new operations will change the dimensions
    of the table.*
+
+![Filtered Table](/unit_4/img/less_than_85.png)
 
 In order to answer these questions, 
 you're *filtering*.  *Filtering* means you're 
