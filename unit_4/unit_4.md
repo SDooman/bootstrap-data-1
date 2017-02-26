@@ -89,13 +89,14 @@ If it's true, we keep that student in our new
 table, otherwise that student is not in the new
 table.
 
-## Exercise
- - Turn to Unit 4 in your workbook and complete
-   the filtering exercise.
-
 In a filter, this true/false question you're asking 
 is called a **predicate**. Predicates are 
 always true/false questions.
+
+
+## Exercise
+ - Turn to Unit 4 in your workbook and complete
+   the filtering exercise.
 
 Pyret allows filtering using the `sieve` expression.  
 The following code generates a table with only foods
@@ -156,11 +157,24 @@ from columns from an old table.
 This involves using expressions, like we did 
 with `sieve`, but in a slightly different way.
 
-First, open your workbooks to Unit 4.  You'll
+### Exercise
+Open your workbooks to Unit 4.  You'll
 see a table that has two columns, and a third
 column with only one value filled in.  It's your
 job to fill in the correct values for each of 
 the other entries.
+
+This process of filling in a new column, by 
+computing new values for each row is called 
+**extending** a table.  We do this to learn 
+information that isn't easy to learn in a table 
+without doing some kind of computation.
+
+**Extending** tables is done using an **expression**,
+similar to how filtering uses an **expression** to
+ask a question.  The difference here is that the
+**expression** for extending is creating new data
+in a column.
 
 The following code creates a new table that 
 has the same columns as the `nutrition` table, 
@@ -194,4 +208,17 @@ and it is defined by the expression
  - Select columns *food, protein-density* from this table
    and order by *protein-density* in descending order.
  - Which food item has the highest protein density?
+
+## <a id="closing"></a>
+
+Let's look at two of the questions you just answered:
+ - Which president served the most years in office?
+ - Which food item has the highest protein density?
+
+Both of these questions would be very difficult to
+answer quickly using the original `presidents` and
+`nutrition` tables.  By leveraging the power of 
+Pyret to compute new values from old data, you made
+it much faster to answer interesting questions from
+this table.
 
